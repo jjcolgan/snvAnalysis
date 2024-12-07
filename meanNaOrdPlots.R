@@ -186,6 +186,10 @@ metadata<-metadata %>%
   rename('run' = cohort)
 adonisData <- genesMeanPCa %>%
   column_to_rownames('sample')
+
+'Testing different disimilarity methods to see which is best able to reach a significant threshold, 
+will make a PCoA from the best one.'
+
 adonis2(adonisData~tissue+cage+Mouse+Cohort+run, data = merge(metadata,
                                              metafull, by = 'sample'), method = 'bray')
 adonis2(adonisData~tissue+cage+Mouse, data = merge(metadata,
