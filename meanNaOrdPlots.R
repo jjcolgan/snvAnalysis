@@ -115,7 +115,8 @@ p<-ggplot(data = plotData,
               y = coord.Dim.2,
               col = tissue,
               label = sample))+
-  geom_point()
+  geom_point()+
+  labs(title = 'MCA mean')
 ggMarginal(p,groupFill = TRUE,type = 'boxplot')
 
 
@@ -133,13 +134,15 @@ ggplot(data = plotData,
            y = coord.Dim.3,
            col = as.factor(tissue),
            label = sample))+
-  geom_point()+stat_ellipse(level = .9)+stat_stars()
+  geom_point()+stat_ellipse(level = .9)+stat_stars()+
+  labs(title = 'Best MCA mean NA')
 ggplot(data = plotData,
        aes(x = coord.Dim.2,
            y = coord.Dim.3,
            col = as.factor(tissue),
            label = sample))+
-  geom_point()+stat_ellipse(level = .95)
+  geom_point()+stat_ellipse(level = .95)+
+  labs(title = 'Best MCA mean NA with 95% conf. ')
 
 
 genesMeanPCa<-genesmeanNA %>%
@@ -165,7 +168,7 @@ genesMeanPCaScores$x %>%
   ggplot(aes(x = PC1,
              y = PC2,
              col = tissue))+
-  geom_point()
+  geom_point()+labs('PCA meanNA')
 "Best, pca I think"
 genesMeanPCaScores$x %>%
   as.data.frame()%>%
@@ -175,7 +178,7 @@ genesMeanPCaScores$x %>%
   ggplot(aes(x = PC2,
              y = PC3,
              col = tissue))+
-  geom_point()
+  geom_point()+labs(title = 'best pca')
 
 
 metafull <- read.csv('snvMeta.csv')
@@ -199,3 +202,5 @@ adonis2(adonisData~tissue+cage, data = merge(metadata,
                                                               metafull, by = 'sample'), method = 'gower')
 adonis2(adonisData~tissue+cage, data = merge(metadata,
                                                               metafull, by = 'sample'), method = 'altGower')
+adonis2(adonisData~tissue+cage, data = merge(metadata,
+                                             metafull, by = 'sample'), method = 'morisita')
