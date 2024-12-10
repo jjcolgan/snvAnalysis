@@ -13,7 +13,7 @@ genomeInfo<- read_csv('/Users/johnjamescolgan/Library/CloudStorage/Box-Box/b. br
 
 'Going to try with a less strict coverage regarding coverage'
 passedFiltered<-genomeInfo %>%
-  filter(coverage_median > 40) %>%
+  filter(coverage_median > 45) %>%
   .$sample
 
 metadata <- read.csv('snvMeta.csv')
@@ -38,7 +38,7 @@ nDj<-pairedGenes %>%
   select(sample)%>%
   distinct()%>%
   nrow()
-cutoffDj<-nDj*.7
+cutoffDj<-nDj*.75
 passedDj<-pairedGenes %>%
   filter(SNV_count > 2,
          tissue == 'dj') %>%
@@ -47,14 +47,12 @@ passedDj<-pairedGenes %>%
   filter(`n()`>= cutoffDj) %>%
   .$gene
 
-view(genesFiltered)
-
 nColon<-pairedGenes %>%
   filter(tissue == 'colon')%>%
   select(sample)%>%
   distinct()%>%
   nrow()
-cutoffColon<-nColon*.7
+cutoffColon<-nColon*.75
 
 passedColon<-pairedGenes %>%
   filter(SNV_count > 2,
@@ -76,7 +74,9 @@ functions<-kofams %>%
   filter(e_value == min(e_value))
 
 genesmeanNA<-pairedGenes %>%
-  filter(SNV_count > 2) %>%
+  filter(SNV_count > 2)
+
+genesmeanNA<- genesmeanNA %>%
   group_by(sample) %>%
   mutate(pNpS_variants = ifelse(is.na(pNpS_variants) & SNV_count > 2, mean(pNpS_variants, na.rm = TRUE), pNpS_variants)) %>%
   ungroup()
@@ -99,7 +99,7 @@ genesmeanNAMca<-genesmeanNA %>%
               names_from = gene,
               values_from = selection)
 
-genesmeanNAMca[is.na(genesmeanNAMca)]<- 'no evidence'
+genesmeanNAMca[is.na(genesmeanNAMca)]<- 'none'
 
 
 mcaOut<-genesmeanNAMca %>%
@@ -115,8 +115,8 @@ plotData<- mcaOut$ind[1] %>%
 
 'This did not work, lots of variability, but I think I can actually resolve differences pretty well'
 ggplot(data = plotData,
-          aes(x = coord.Dim.2,
-              y = coord.Dim.3,
+          aes(x = coord.Dim.1,
+              y = coord.Dim.2,
               col = tissue,
               label = sample))+
   geom_point()+
@@ -128,7 +128,7 @@ genesMeanPCa<-genesmeanNA %>%
               names_from = gene,
               values_from = pNpS_variants)
 
-genesMeanPCa[is.na(genesMeanPCa)]<- -.0000001
+genesMeanPCa[is.na(genesMeanPCa)]<- -1
 
 genesMeanPCaScores<-genesMeanPCa %>%
   column_to_rownames('sample')%>%
@@ -157,6 +157,7 @@ genesMeanPCaScores$x %>%
              y = PC2,
              col = log10(coverage),
              label = sample))+
+  geom_text_repel()+
   geom_point()+labs('PCA meanNA paired')
 
 'This is not working, need to figure it out'
@@ -173,10 +174,16 @@ for (g in 1:length(passedBoth)){
     summarise('nPerMouse' = n())%>%
     filter(nPerMouse > 1)%>%
     .$Mouse
+  print(print(length(pairedTemp)))
   temp<-temp %>%
     filter(Mouse %in% pairedTemp)
-
-  wilcoxOut<- wilcox.test(pNpS_variants~tissue, data = temp, paired = TRUE, exact = FALSE)
+  dj <- temp %>%
+    filter(tissue == 'dj')%>%
+    .$pNpS_variants
+  colon <- temp %>%
+    filter(tissue == 'colon')%>%
+    .$pNpS_variants
+  wilcoxOut<- wilcox.test(dj, colon, paired = TRUE, exact = FALSE)
   tempOut <- data.frame('gene' = geneBeingTested,
                         'pvalue' = wilcoxOut$p.value)
   output <- rbind(output, tempOut)
