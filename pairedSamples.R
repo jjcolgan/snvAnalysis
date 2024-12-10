@@ -5,6 +5,38 @@ library(tidyverse)
 library(dplyr)
 library(FactoMineR)
 library(ggExtra)
+library(ggrepel)
+
+buildContingencyTab <- function(geneFilteredMat){
+  tissues<-unique(geneFilteredMat$tissue)
+  conTab <- data.frame('tissue' = character(),
+                       'nAbove1' = numeric(),
+                       'nbelow1' = numeric(),
+                       'Na' = numeric())
+  for (t in 1:length(tissues)){
+    tissueOfInterest <- tissues[t]
+    tissueFiltered<-geneFilteredMat %>%
+      filter(tissue == tissueOfInterest,
+             sample != 'NT_3DJMGS_S4',
+             sample != '2448-co',
+             sample!= 'DJ_MGS_NT_4_S21')
+    nAbove1 <- tissueFiltered %>%
+      filter(pNpS_variants > 1,
+             is.na(pNpS_variants)==FALSE) %>%
+      nrow()
+    nBelow1 <- tissueFiltered %>%
+      filter(pNpS_variants < 1) %>%
+      nrow()
+    nNa <- tissueFiltered %>%
+      filter(is.na(pNpS_variants)==TRUE) %>%
+      nrow()
+    conTab<-rbind(data.frame('tissue' = tissueOfInterest,
+                             'nAbove1' = nAbove1,
+                             'nbelow1' = nBelow1),conTab)
+  }
+  conTab <- column_to_rownames(conTab, 'tissue')
+  return(conTab)
+}
 
 'Read in data and filter, remove samples with a min coverage less than 45, this removes the problematic samples, identified
  via ord plots'
@@ -157,8 +189,8 @@ genesMeanPCaScores$x %>%
              y = PC2,
              col = log10(coverage),
              label = sample))+
-  geom_text_repel()+
-  geom_point()+labs('PCA meanNA paired')
+  geom_point()+
+  geom_text_repel()+labs(title = 'PCA meanNA paired')
 
 'This is not working, need to figure it out'
 output <- data.frame('gene' = character(),
@@ -194,3 +226,27 @@ output$padj <- p.adjust(output$pvalue, method = 'BH')
 
 output %>%
   filter(pvalue < .05)
+
+
+outputMcNemar <- data.frame('gene' = character(),
+                     'pvalue' = numeric())
+
+'This is also not working all to well'
+for (g in 1:length(passedBoth)){
+  geneBeingTested <- passedBoth[g]
+  temp <- genesmeanNA %>%
+    filter(gene==geneBeingTested) %>%
+    filter(is.na(pNpS_variants)== FALSE)
+  pairedTemp<-temp %>%
+    group_by(Mouse)%>%
+    select(Mouse)%>%
+    summarise('nPerMouse' = n())%>%
+    filter(nPerMouse > 1)%>%
+    .$Mouse
+  temp<-temp %>%
+    filter(Mouse %in% pairedTemp)
+
+  mcNemarIn <- buildContingencyTab(temp)
+  print(mcnemar.test(as.matrix(mcNemarIn)))
+
+}
