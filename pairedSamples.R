@@ -45,7 +45,7 @@ genomeInfo<- read_csv('/Users/johnjamescolgan/Library/CloudStorage/Box-Box/b. br
 
 'Going to try with a less strict coverage regarding coverage'
 passedFiltered<-genomeInfo %>%
-  filter(coverage_median > 45) %>%
+  filter(coverage_median > 20) %>%
   .$sample
 
 metadata <- read.csv('snvMeta.csv')
@@ -110,7 +110,7 @@ genesmeanNA<-pairedGenes %>%
 
 genesmeanNA<- genesmeanNA %>%
   group_by(sample) %>%
-  mutate(pNpS_variants = ifelse(is.na(pNpS_variants) & SNV_count > 2, mean(pNpS_variants, na.rm = TRUE), pNpS_variants)) %>%
+  mutate(pNpS_variants = ifelse(is.na(pNpS_variants) & SNV_count > 2, max(pNpS_variants, na.rm = TRUE), pNpS_variants)) %>%
   ungroup()
 
 
@@ -250,3 +250,5 @@ for (g in 1:length(passedBoth)){
   print(mcnemar.test(as.matrix(mcNemarIn)))
 
 }
+?mcnemar.test(
+)

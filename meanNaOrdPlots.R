@@ -77,14 +77,14 @@ genesmeanNA<-genesPassedPrevelanceFilter %>%
   mutate(pNpS_variants = ifelse(is.na(pNpS_variants) & SNV_count > 2, mean(pNpS_variants, na.rm = TRUE), pNpS_variants)) %>%
   ungroup()
 
-
+'Changed to just a binary, looks a lot better'
 genesmeanNA$selection <- 'none'
 genesmeanNA$selection[genesmeanNA$pNpS_variants > 1 ] <- 'weak adaptive'
 genesmeanNA$selection[genesmeanNA$pNpS_variants < 1 ] <- 'weak purifying'
-genesmeanNA$selection[genesmeanNA$pNpS_variants > 1.25 ] <- 'adaptive'
-genesmeanNA$selection[genesmeanNA$pNpS_variants < .8 ] <- 'purifying'
-genesmeanNA$selection[genesmeanNA$pNpS_variants > 2.5] <- 'Strong adaptive'
-genesmeanNA$selection[genesmeanNA$pNpS_variants < .364] <- 'Strong purifying'
+#genesmeanNA$selection[genesmeanNA$pNpS_variants > 1.25 ] <- 'adaptive'
+#genesmeanNA$selection[genesmeanNA$pNpS_variants < .8 ] <- 'purifying'
+#genesmeanNA$selection[genesmeanNA$pNpS_variants > 2.5] <- 'Strong adaptive'
+#genesmeanNA$selection[genesmeanNA$pNpS_variants < .364] <- 'Strong purifying'
 
 
 genesmeanNA %>%
@@ -108,41 +108,23 @@ plotData<- mcaOut$ind[1] %>%
   as.data.frame() %>%
   rownames_to_column('sample') %>%
   merge(metadata, by = 'sample')
+'Both of these look good, need to figure out what pc1 is capturing, but PC2 does a good job of
+seperating groups'
+ggplot(data = plotData,
+       aes(x = coord.Dim.2,
+           y = coord.Dim.3,
+           col = tissue,
+           label = sample))+
+  geom_point()+
+  labs(title = 'MCA mean')
 
-
-p<-ggplot(data = plotData,
-          aes(x = coord.Dim.1,
-              y = coord.Dim.2,
+ggplot(data = plotData,
+          aes(x = coord.Dim.2,
+              y = coord.Dim.3,
               col = tissue,
               label = sample))+
   geom_point()+
   labs(title = 'MCA mean')
-ggMarginal(p,groupFill = TRUE,type = 'boxplot')
-
-
-
-ggplot(data = plotData,
-       aes(x = coord.Dim.3,
-           y = coord.Dim.4,
-           col = as.factor(tissue),
-           label = sample))+
-  geom_point()
-'Probably the best ordination with the mean imputed data
-'
-ggplot(data = plotData,
-       aes(x = coord.Dim.2,
-           y = coord.Dim.3,
-           col = as.factor(tissue),
-           label = sample))+
-  geom_point()+stat_ellipse(level = .9)+stat_stars()+
-  labs(title = 'Best MCA mean NA')
-ggplot(data = plotData,
-       aes(x = coord.Dim.2,
-           y = coord.Dim.3,
-           col = as.factor(tissue),
-           label = sample))+
-  geom_point()+stat_ellipse(level = .95)+
-  labs(title = 'Best MCA mean NA with 95% conf. ')
 
 
 genesMeanPCa<-genesmeanNA %>%
@@ -151,7 +133,7 @@ genesMeanPCa<-genesmeanNA %>%
               names_from = gene,
               values_from = pNpS_variants)
 
-genesMeanPCa[is.na(genesMeanPCa)]<- -.0000001
+genesMeanPCa[is.na(genesMeanPCa)]<- -1
 
 genesMeanPCaScores<-genesMeanPCa %>%
   column_to_rownames('sample')%>%
@@ -189,18 +171,62 @@ metadata<-metadata %>%
   rename('run' = cohort)
 adonisData <- genesMeanPCa %>%
   column_to_rownames('sample')
+'Some of these are not going to work with the current imputation scheme due to the negatives. '
 adonis2(adonisData~tissue+cage+Mouse+Cohort+run, data = merge(metadata,
                                              metafull, by = 'sample'), method = 'bray')
-adonis2(adonisData~tissue+cage+Mouse, data = merge(metadata,
-                                        metafull, by = 'sample'), method = 'man')
-adonis2(adonisData~tissue+cage+Mouse+run+Cohort, data = merge(metadata,
-                                             metafull, by = 'sample'), method = 'jac')
-'so far the best, not significant. Best with all terms. '
-adonis2(adonisData~tissue+cage+Mouse+run+Cohort, data = merge(metadata,
-                                             metafull, by = 'sample'), method = 'canberra')
-adonis2(adonisData~tissue+cage, data = merge(metadata,
-                                                              metafull, by = 'sample'), method = 'gower')
-adonis2(adonisData~tissue+cage, data = merge(metadata,
-                                                              metafull, by = 'sample'), method = 'altGower')
-adonis2(adonisData~tissue+cage, data = merge(metadata,
-                                             metafull, by = 'sample'), method = 'morisita')
+bray<- vegdist(adonisData)
+adonis2(adonisData~tissue+cage+Mouse, data = merge(metadata, metafull, by = 'sample'), method = 'man')
+adonis2(adonisData~tissue+cage+Mouse+run+Cohort, data = merge(metadata,metafull, by = 'sample'), method = 'canberra')
+adonis2(adonisData~tissue+cage+Mouse+run+Cohort, data = merge(metadata,metafull, by = 'sample'), method = 'jac')
+'Going to try jaccard distance as a binary purifying yes or no'
+genesmeanNA$purifying <-0
+genesmeanNA$purifying[genesmeanNA$pNpS_variants < 1] <-1
+
+jaccardIn<-genesmeanNA %>%
+  pivot_wider(id_cols = sample,
+  names_from = gene,
+  values_from = purifying)
+jaccardIn[is.na(jaccardIn)]<-0
+
+jaccardIn <- column_to_rownames(jaccardIn, 'sample')
+
+adonis2(jaccardIn~tissue+cage+Mouse+run+Cohort, data = merge(metadata, metafull, by = 'sample'), method = 'jac', binary = TRUE)
+jaccardOut<-jaccardIn %>%
+  vegdist(method = 'jaccard',
+          binary = TRUE)
+jaccardPCoA<-wcmdscale(jaccardOut,eig = TRUE)
+
+jaccardPCoA$points %>%
+  as.data.frame() %>%
+   rownames_to_column('sample') %>%
+  merge(metadata, by = 'sample') %>%
+  ggplot(aes(x = Dim1,
+             y = Dim2,
+             col = tissue))+
+  geom_point()
+'jaccard adaptive'
+genesmeanNA$adpative <-0
+genesmeanNA$adaptive[genesmeanNA$pNpS_variants > 1] <- 1
+
+jaccardIn<-genesmeanNA %>%
+  pivot_wider(id_cols = sample,
+              names_from = gene,
+              values_from = adaptive)
+jaccardIn[is.na(jaccardIn)]<-0
+
+jaccardIn <- column_to_rownames(jaccardIn, 'sample')
+
+adonis2(jaccardIn~tissue+cage+Mouse+run+Cohort, data = merge(metadata, metafull, by = 'sample'), method = 'jac', binary = TRUE)
+jaccardOut<-jaccardIn %>%
+  vegdist(method = 'jaccard',
+          binary = TRUE)
+jaccardPCoA<-wcmdscale(jaccardOut,eig = TRUE)
+
+jaccardPCoA$points %>%
+  as.data.frame() %>%
+  rownames_to_column('sample') %>%
+  merge(metadata, by = 'sample') %>%
+  ggplot(aes(x = Dim1,
+             y = Dim2,
+             col = tissue))+
+  geom_point()
