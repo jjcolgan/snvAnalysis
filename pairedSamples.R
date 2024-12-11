@@ -16,10 +16,7 @@ buildContingencyTab <- function(geneFilteredMat){
   for (t in 1:length(tissues)){
     tissueOfInterest <- tissues[t]
     tissueFiltered<-geneFilteredMat %>%
-      filter(tissue == tissueOfInterest,
-             sample != 'NT_3DJMGS_S4',
-             sample != '2448-co',
-             sample!= 'DJ_MGS_NT_4_S21')
+      filter(tissue == tissueOfInterest)
     nAbove1 <- tissueFiltered %>%
       filter(pNpS_variants > 1,
              is.na(pNpS_variants)==FALSE) %>%
@@ -45,7 +42,7 @@ genomeInfo<- read_csv('/Users/johnjamescolgan/Library/CloudStorage/Box-Box/b. br
 
 'Going to try with a less strict coverage regarding coverage'
 passedFiltered<-genomeInfo %>%
-  filter(coverage_median > 20) %>%
+  filter(coverage_median > 29) %>%
   .$sample
 
 metadata <- read.csv('snvMeta.csv')
@@ -110,7 +107,7 @@ genesmeanNA<-pairedGenes %>%
 
 genesmeanNA<- genesmeanNA %>%
   group_by(sample) %>%
-  mutate(pNpS_variants = ifelse(is.na(pNpS_variants) & SNV_count > 2, max(pNpS_variants, na.rm = TRUE), pNpS_variants)) %>%
+  mutate(pNpS_variants = ifelse(is.na(pNpS_variants) & SNV_count > 2, mean(pNpS_variants, na.rm = TRUE), pNpS_variants)) %>%
   ungroup()
 
 
@@ -215,17 +212,16 @@ for (g in 1:length(passedBoth)){
   colon <- temp %>%
     filter(tissue == 'colon')%>%
     .$pNpS_variants
-  wilcoxOut<- wilcox.test(dj, colon, paired = TRUE, exact = FALSE)
+  wilcoxOut<- wilcox.test(dj, colon, paired = TRUE, exact = TRUE)
   tempOut <- data.frame('gene' = geneBeingTested,
                         'pvalue' = wilcoxOut$p.value)
   output <- rbind(output, tempOut)
 }
 
-
 output$padj <- p.adjust(output$pvalue, method = 'BH')
 
 output %>%
-  filter(pvalue < .05)
+  filter(pvalue < .1)
 
 
 outputMcNemar <- data.frame('gene' = character(),
