@@ -6,5 +6,7 @@
 #SBATCH --output=metabolism.out
 #SBATCH --err=metabolism.err
 
-anvi-estimate-metabolism -M metagenomes.txt
+anvi-estimate-metabolism -M metagenomes.txt \
+--kegg-data-dir /project/blekhman/shared/anvioDbs/kegg/ \
+--matrix-format
 
