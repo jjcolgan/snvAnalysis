@@ -7,4 +7,5 @@
 
 anvi-pan-genome -g genomeStorage-GENOMES.db \
                 --project-name siVsLiPangenomics \
-                --num-threads 12
+                --num-threads 12 \
+                --mcl-inflation 10
