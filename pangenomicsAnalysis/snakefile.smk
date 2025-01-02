@@ -477,14 +477,15 @@ rule makeSTB:
     input:
         '10_BINNING/{sample}/minContig1500/binning.done'
     output:
-        '10_BINNING/{sample}/minContig1500/{sample}.stb'
+        genomes = '10_BINNING/{sample}/minContig1500/genomes.txt',
+        stb = '10_BINNING/{sample}/minContig1500/{sample}.stb'
     params:
         path='10_BINNING/{sample}/minContig1500/'
     shell:
         """
-        ls {params.path} *fa > 10_BINNING/{sample}/minContig1500/genomes.txt
+        ls {params.path} *fa > {output.genomes}
         sed 's/[^[:ascii:]]/_/g' genomes.txt > genomes.txt
-        parse_stb --reverse -s genomes.txt -o {output}
+        parse_stb --reverse -s {output.genomes} -o {output.stb}
         """
 rule importCollection:
     resources:
