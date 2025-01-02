@@ -446,14 +446,12 @@ rule metabat2:
     conda:
         'metabat2'
     input:
-        coverages = '04_MG_ALIGNED/{sample}Sorted.bam',
         coverages = '09_COVERAGES/{sample}/coverageOutput-COVs.txt',
         contigs = '09_COVERAGES/{sample}/coverageOutput-CONTIGS.fa'
     output:
         done = '10_BINNING/{sample}/minContig1500/binning.done'
     params:
         dir = '10_BINNING/{sample}/minContig1500/{sample}'
-        dir = '10_BINNING/{sample}/minContig1500'
     log:
         out = '10_BINNING/{sample}/minContig1500/binning.out',
         err= '10_BINNING/{sample}/minContig1500/binning.err'
