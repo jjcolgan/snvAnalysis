@@ -14,10 +14,11 @@ samples = samples[:-1]
 
 rule all:
     input:
-        expand('10_BINNING/{sample}/minContig1500/binning.done', sample = samples),
+        expand('05_CONTIGS_DB/{sample}/importBins.done', sample = samples),
         expand('05_CONTIGS_DB/{sample}/contigs.db', sample = samples),
 #        expand('05_CONTIGS_DB/{sample}/annotations.done', sample = samples),
         'metagenomes.tsv'
+
 
 rule makeMetaGenomesFile:
     envmodules:
@@ -477,9 +478,11 @@ rule makeSTB:
         '10_BINNING/{sample}/minContig1500/binning.done'
     output:
         '10_BINNING/{sample}/minContig1500/{sample}.stb'
+    params:
+        path='10_BINNING/{sample}/minContig1500/'
     shell:
         """
-        ls 10_BINNING/{sample}/minContig1500/*fa > 10_BINNING/{sample}/minContig1500/genomes.txt
+        ls {params.path} *fa > 10_BINNING/{sample}/minContig1500/genomes.txt
         sed 's/[^[:ascii:]]/_/g' genomes.txt > genomes.txt
         parse_stb --reverse -s genomes.txt -o {output}
         """
@@ -498,12 +501,11 @@ rule importCollection:
         contigs_db='05_CONTIGS_DB/{sample}/contigs.db',
         profile = '06_MG_PROFILES/{sample}/PROFILE.db'
     output:
-       '05_CONTIGS_DB/{sample}/importBins.done'
+       done = '05_CONTIGS_DB/{sample}/importBins.done'
+
     shell:
         '''
         anvi-import-collection -c {input.contigs_db} -p {input.profile} -C {input.stb}
-        -t 10 -m 1500 --saveCls --outFile {params.dir} \
-        > {log.out} 2> {log.err}
         touch {output.done}
         '''
 
