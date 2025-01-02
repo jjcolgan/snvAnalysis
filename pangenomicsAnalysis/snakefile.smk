@@ -446,11 +446,13 @@ rule metabat2:
     conda:
         'metabat2'
     input:
+        coverages = '04_MG_ALIGNED/{sample}Sorted.bam',
         coverages = '09_COVERAGES/{sample}/coverageOutput-COVs.txt',
         contigs = '09_COVERAGES/{sample}/coverageOutput-CONTIGS.fa'
     output:
         done = '10_BINNING/{sample}/minContig1500/binning.done'
     params:
+        dir = '10_BINNING/{sample}/minContig1500/{sample}'
         dir = '10_BINNING/{sample}/minContig1500'
     log:
         out = '10_BINNING/{sample}/minContig1500/binning.out',
@@ -459,8 +461,51 @@ rule metabat2:
         """
         metabat2 -i {input.contigs} \
         --cvExt -a {input.coverages} \
-        -t 10 -m 1500 --saveCls --outFile {params.dir} \
+        -t 10 -m 1500 --saveCls -o {params.dir} \
         > {log.out} 2> {log.err}
         touch {output.done}
         """
+rule makeSTB:
+    resources:
+        cpus_per_task= 1,
+        mem_mb=2000,
+        tasks=1,
+        time='15h',
+        nodes=1,
+        account='pi-blekhman'
+    conda:
+        'drep'
+    input:
+        '10_BINNING/{sample}/minContig1500/binning.done'
+    output:
+        '10_BINNING/{sample}/minContig1500/{sample}.stb'
+    shell:
+        """
+        ls 10_BINNING/{sample}/minContig1500/*fa > 10_BINNING/{sample}/minContig1500/genomes.txt
+        sed 's/[^[:ascii:]]/_/g' genomes.txt > genomes.txt
+        parse_stb --reverse -s genomes.txt -o {output}
+        """
+rule importCollection:
+    resources:
+        cpus_per_task = 1,
+        mem_mb = 2000,
+        tasks = 1,
+        time = '15h',
+        nodes = 1,
+        account = 'pi-blekhman'
+    conda:
+        'anvio-dev-no-update'
+    input:
+        stb = '10_BINNING/{sample}/minContig1500/{sample}.stb',
+        contigs_db='05_CONTIGS_DB/{sample}/contigs.db',
+        profile = '06_MG_PROFILES/{sample}/PROFILE.db'
+    output:
+       '05_CONTIGS_DB/{sample}/importBins.done'
+    shell:
+        '''
+        anvi-import-collection -c {input.contigs_db} -p {input.profile} -C {input.stb}
+        -t 10 -m 1500 --saveCls --outFile {params.dir} \
+        > {log.out} 2> {log.err}
+        touch {output.done}
+        '''
 
