@@ -483,9 +483,9 @@ rule makeSTB:
         path='10_BINNING/{sample}/minContig1500/'
     shell:
         """
-        ls {params.path} *fa > {output.genomes}
+        ls {params.path}*fa > {output.genomes}
         sed 's/[^[:ascii:]]/_/g' genomes.txt > genomes.txt
-        parse_stb --reverse -s {output.genomes} -o {output.stb}
+        parse_stb --reverse {output.genomes} -o {output.stb}
         """
 rule importCollection:
     resources:
