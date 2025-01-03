@@ -450,12 +450,12 @@ rule metabat2:
         coverages = '09_COVERAGES/{sample}/coverageOutput-COVs.txt',
         contigs = '09_COVERAGES/{sample}/coverageOutput-CONTIGS.fa'
     output:
-        done = '10_BINNING/{sample}/minContig1500/binning.done'
+        done = '10_BINNING/{sample}/binning.done'
     params:
-        dir = '10_BINNING/{sample}/minContig1500/{sample}'
+        dir = '10_BINNING/{sample}/bin{sample}'
     log:
-        out = '10_BINNING/{sample}/minContig1500/binning.out',
-        err= '10_BINNING/{sample}/minContig1500/binning.err'
+        out = '10_BINNING/{sample}/binning.out',
+        err= '10_BINNING/{sample}/binning.err'
     shell:
         """
         metabat2 -i {input.contigs} \
@@ -475,17 +475,16 @@ rule makeSTB:
     conda:
         'drep'
     input:
-        '10_BINNING/{sample}/minContig1500/binning.done'
+        '10_BINNING/{sample}/binning.done'
     output:
-        genomes = '10_BINNING/{sample}/minContig1500/genomes.txt',
-        stb = '10_BINNING/{sample}/minContig1500/{sample}.stb'
+        genomes = '10_BINNING/{sample}/genomes.txt',
+        stb = '10_BINNING/{sample}/{sample}.stb'
     params:
-        path='10_BINNING/{sample}/minContig1500/'
+        path='10_BINNING/{sample}/'
     shell:
         """
         ls {params.path}*fa > {output.genomes}
-        sed 's/[^[:ascii:]]/_/g' genomes.txt > genomes.txt
-        parse_stb --reverse {output.genomes} -o {output.stb}
+        parse_stb.py --reverse -f {output.genomes} -o {output.stb}
         """
 rule importCollection:
     resources:
@@ -498,7 +497,7 @@ rule importCollection:
     conda:
         'anvio-dev-no-update'
     input:
-        stb = '10_BINNING/{sample}/minContig1500/{sample}.stb',
+        stb = '10_BINNING/{sample}/{sample}.stb',
         contigs_db='05_CONTIGS_DB/{sample}/contigs.db',
         profile = '06_MG_PROFILES/{sample}/PROFILE.db'
     output:
@@ -506,7 +505,7 @@ rule importCollection:
 
     shell:
         '''
-        anvi-import-collection -c {input.contigs_db} -p {input.profile} -C {input.stb}
+        anvi-import-collection -c {input.contigs_db} -p {input.profile} -C metabat2 --contigs-mode {input.stb} 
         touch {output.done}
         '''
 
