@@ -13,6 +13,6 @@ do
 	mkdir spades/02_ASSEMBLY/$sample
 	spades.py --meta -o spades/02_ASSEMBLY/$sample \
 	-m 9 -t 12 \
-	-1 01_QC/$sample_dehosted_R1.fastq.gz \
-	-2 01_QC/$sample_dehosted_R2.fastq.gz > spades/02_ASSEMBLY/$sample/spades.out 2> spades/02_ASSEMBLY/$sample/spades.err
+	-1 01_QC/${sample}_dehosted_R1.fastq.gz \
+	-2 01_QC/${sample}_dehosted_R2.fastq.gz > spades/02_ASSEMBLY/$sample/spades.out 2> spades/02_ASSEMBLY/$sample/spades.err
 done
