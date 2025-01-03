@@ -477,14 +477,16 @@ rule makeSTB:
     input:
         '10_BINNING/{sample}/binning.done'
     output:
-        genomes = '10_BINNING/{sample}/genomes.txt',
-        stb = '10_BINNING/{sample}/{sample}.stb'
+        genomes = temp('10_BINNING/{sample}/genomes.txt'),
+        stb = temp('10_BINNING/{sample}/{sample}.stb'),
+        stbCleaned = '10_BINNING/{sample}/stbCleaned.stb'
     params:
         path='10_BINNING/{sample}/'
     shell:
         """
         ls {params.path}*fa > {output.genomes}
         parse_stb.py --reverse -f {output.genomes} -o {output.stb}
+        perl -pe 's/\./_/g' {output.stb} > {output.stbCleaned}
         """
 rule importCollection:
     resources:
@@ -497,7 +499,7 @@ rule importCollection:
     conda:
         'anvio-dev-no-update'
     input:
-        stb = '10_BINNING/{sample}/{sample}.stb',
+        stb = '10_BINNING/{sample}/stbCleaned.stb',
         contigs_db='05_CONTIGS_DB/{sample}/contigs.db',
         profile = '06_MG_PROFILES/{sample}/PROFILE.db'
     output:
