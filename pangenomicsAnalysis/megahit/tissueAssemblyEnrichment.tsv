@@ -1,0 +1,933 @@
+KOfam	enrichment_score	unadjusted_p_value	adjusted_q_value	associated_groups	accession	gene_clusters_ids	p_dj	p_colon	N_dj	N_colon
+BTB/POZ domain-containing protein 13 (germ cell-less protein-like 1)	6.1714286044380895	0.012982972687809095	1	colon	K10485	GC_00002057, GC_00002392	0.3333	0.8333	12	12
+S-formylglutathione hydrolase [EC:3.1.2.12]	2.18181829270146	0.13964938855059078	1	colon	K01070	GC_00002678, GC_00002827	0	0.1667	12	12
+protein SFI1	1.200001392632334	0.2733213999501653	1	colon	K16489	GC_00002369	0.0833	0.25	12	12
+protein phosphatase 1 regulatory subunit 11	1.0434783537125123	0.30701387651449075	1	colon	K17553	GC_00003700	0	0.0833	12	12
+pancreatic ribonuclease [EC:4.6.1.18]	1.0434783537125105	0.30701387651449114	1	dj	K01168	GC_00002970	0.0833	0	12	12
+pre-B lymphocyte gene	1.0434783537125105	0.30701387651449114	1	dj	K06553	GC_00003658	0.0833	0	12	12
+cytochrome c oxidase subunit III [EC:7.1.1.9]	1.0434783537125105	0.30701387651449114	1	dj	K02276	GC_00003371	0.0833	0	12	12
+interferon alpha	0.6857147945277212	0.40762577372413883	1	colon	K05414	GC_00002124	0.3333	0.5	12	12
+heat-inducible transcriptional repressor	0	1	1	NA	K03705	GC_00001770	1	1	12	12
+putative peptidoglycan lipid II flippase	0	1	1	NA	K03980	GC_00001524	1	1	12	12
+basic amino acid/polyamine antiporter, APA family	0	1	1	NA	K03294	GC_00000069, GC_00001175	1	1	12	12
+lactaldehyde reductase [EC:1.1.1.77]	0	1	1	NA	K00048	GC_00001060	1	1	12	12
+dolichol-phosphate hexosyltransferase [EC:2.4.1.-]	0	1	1	NA	K23684	GC_00001555	1	1	12	12
+tRNA dimethylallyltransferase [EC:2.5.1.75]	0	1	1	NA	K00791	GC_00001725	1	1	12	12
+glucose-1-phosphate adenylyltransferase [EC:2.7.7.27]	0	1	1	NA	K00975	GC_00001753	1	1	12	12
+formate C-acetyltransferase [EC:2.3.1.54]	0	1	1	NA	K00656	GC_00001192	1	1	12	12
+dCTP deaminase [EC:3.5.4.13]	0	1	1	NA	K01494	GC_00000204	1	1	12	12
+phosphoenolpyruvate-protein phosphotransferase (PTS system enzyme I) [EC:2.7.3.9]	0	1	1	NA	K08483	GC_00000284	1	1	12	12
+uracil phosphoribosyltransferase [EC:2.4.2.9]	0	1	1	NA	K00761	GC_00000475	1	1	12	12
+large subunit ribosomal protein L28	0	1	1	NA	K02902	GC_00000256	1	1	12	12
+putative aldouronate transport system permease protein	0	1	1	NA	K17320	GC_00001089, GC_00001857	1	1	12	12
+YidC/Oxa1 family membrane protein insertase	0	1	1	NA	K03217	GC_00000571	1	1	12	12
+cell division protein WhiA	0	1	1	NA	K09762	GC_00000062	1	1	12	12
+tyrosine-protein kinase [EC:2.7.10.3]	0	1	1	NA	K25588	GC_00001645	1	1	12	12
+[ribosomal protein S5]-alanine N-acetyltransferase [EC:2.3.1.267]	0	1	1	NA	K03790	GC_00001923	1	1	12	12
+glutamyl-tRNA synthetase [EC:6.1.1.17]	0	1	1	NA	K01885	GC_00000894	1	1	12	12
+inner membrane transporter RhtA	0	1	1	NA	K11939	GC_00001930	1	1	12	12
+dihydrolipoamide dehydrogenase [EC:1.8.1.4]	0	1	1	NA	K00382	GC_00000866	1	1	12	12
+diaminopimelate decarboxylase [EC:4.1.1.20]	0	1	1	NA	K01586	GC_00001832	1	1	12	12
+acetylglutamate kinase [EC:2.7.2.8]	0	1	1	NA	K00930	GC_00001643	1	1	12	12
+MFS transporter, FHS family, L-fucose permease	0	1	1	NA	K02429	GC_00000355	1	1	12	12
+ribosome recycling factor	0	1	1	NA	K02838	GC_00000357	1	1	12	12
+A/G-specific adenine glycosylase [EC:3.2.2.31]	0	1	1	NA	K03575	GC_00001830	1	1	12	12
+DNA-3-methyladenine glycosylase I [EC:3.2.2.20]	0	1	1	NA	K01246	GC_00001400	1	1	12	12
+triosephosphate isomerase (TIM) [EC:5.3.1.1]	0	1	1	NA	K01803	GC_00001667	1	1	12	12
+MFS transporter, DHA1 family, arabinose polymer utilization protein	0	1	1	NA	K08156	GC_00000994	1	1	12	12
+DNA gyrase subunit A [EC:5.6.2.2]	0	1	1	NA	K02469	GC_00000232	1	1	12	12
+phosphoglycerate kinase [EC:2.7.2.3]	0	1	1	NA	K00927	GC_00001638	1	1	12	12
+threonine dehydratase [EC:4.3.1.19]	0	1	1	NA	K01754	GC_00001090	1	1	12	12
+cellulose synthase (UDP-forming) [EC:2.4.1.12]	0	1	1	NA	K00694	GC_00001308	1	1	12	12
+phosphocarrier protein HPr	0	1	1	NA	K02784	GC_00001503	1	1	12	12
+two-component system, NarL family, nitrate/nitrite response regulator NarL	0	1	1	NA	K07684	GC_00000155	1	1	12	12
+glucose-6-phosphate isomerase [EC:5.3.1.9]	0	1	1	NA	K01810	GC_00001604	1	1	12	12
+3-phosphoshikimate 1-carboxyvinyltransferase [EC:2.5.1.19]	0	1	1	NA	K00800	GC_00001626	1	1	12	12
+trigger factor	0	1	1	NA	K03545	GC_00000391	1	1	12	12
+tRNA (cytidine/uridine-2'-O-)-methyltransferase [EC:2.1.1.207]	0	1	1	NA	K03216	GC_00001552	1	1	12	12
+TetR/AcrR family transcriptional regulator, transcriptional repressor for nem operon	0	1	1	NA	K16137	GC_00001906	1	1	12	12
+RNA polymerase sigma-70 factor, ECF subfamily	0	1	1	NA	K03088	GC_00000857, GC_00001931	1	1	12	12
+23S rRNA (uracil1939-C5)-methyltransferase [EC:2.1.1.190]	0	1	1	NA	K03215	GC_00000948	1	1	12	12
+dihydroxy-acid dehydratase [EC:4.2.1.9]	0	1	1	NA	K01687	GC_00000819	1	1	12	12
+methionyl-tRNA synthetase [EC:6.1.1.10]	0	1	1	NA	K01874	GC_00001658	1	1	12	12
+competence protein ComEA	0	1	1	NA	K02237	GC_00001894	1	1	12	12
+spore coat protein H	0	1	1	NA	K06330	GC_00000386	1	1	12	12
+5-(carboxyamino)imidazole ribonucleotide mutase [EC:5.4.99.18]	0	1	1	NA	K01588	GC_00001343	1	1	12	12
+glutamate transport system permease protein	0	1	1	NA	K10007	GC_00001300, GC_00001651	1	1	12	12
+ATP-dependent Clp protease ATP-binding subunit ClpB	0	1	1	NA	K03695	GC_00001047	1	1	12	12
+NADH-dependent peroxiredoxin subunit C [EC:1.11.1.26]	0	1	1	NA	K24119	GC_00001553	1	1	12	12
+dihydropteroate synthase [EC:2.5.1.15]	0	1	1	NA	K00796	GC_00000066	1	1	12	12
+16S rRNA (guanine527-N7)-methyltransferase [EC:2.1.1.170]	0	1	1	NA	K03501	GC_00001789	1	1	12	12
+3',5'-nucleoside bisphosphate phosphatase [EC:3.1.3.97]	0	1	1	NA	K07053	GC_00000879	1	1	12	12
+multiple sugar transport system permease protein	0	1	1	NA	K02025	GC_00000004, GC_00000008, GC_00000540, GC_00000599, GC_00000752, GC_00001296, GC_00001625, GC_00001650, GC_00001709	1	1	12	12
+segregation and condensation protein A	0	1	1	NA	K05896	GC_00000653	1	1	12	12
+phospho-N-acetylmuramoyl-pentapeptide-transferase [EC:2.7.8.13]	0	1	1	NA	K01000	GC_00001303	1	1	12	12
+UDP-N-acetylglucosamine 1-carboxyvinyltransferase [EC:2.5.1.7]	0	1	1	NA	K00790	GC_00000159	1	1	12	12
+putative pre-16S rRNA nuclease [EC:3.1.-.-]	0	1	1	NA	K07447	GC_00001994	0.75	0.75	12	12
+GTP-binding protein LepA	0	1	1	NA	K03596	GC_00000550	1	1	12	12
+small subunit ribosomal protein S4	0	1	1	NA	K02986	GC_00000385	1	1	12	12
+thioredoxin reductase (NADPH) [EC:1.8.1.9]	0	1	1	NA	K00384	GC_00000616, GC_00000946	1	1	12	12
+argininosuccinate lyase [EC:4.3.2.1]	0	1	1	NA	K01755	GC_00001102	1	1	12	12
+thiaminase (transcriptional activator TenA) [EC:3.5.99.2]	0	1	1	NA	K03707	GC_00001125	1	1	12	12
+ribonuclease HII [EC:3.1.26.4]	0	1	1	NA	K03470	GC_00001522	1	1	12	12
+adenine/guanine/hypoxanthine permease	0	1	1	NA	K06901	GC_00000107	1	1	12	12
+aspartate kinase [EC:2.7.2.4]	0	1	1	NA	K00928	GC_00001076	1	1	12	12
+large subunit ribosomal protein L25	0	1	1	NA	K02897	GC_00001327	1	1	12	12
+phosphate transport system permease protein	0	1	1	NA	K02038	GC_00000199, GC_00000732	1	1	12	12
+MFS transporter, MHS family, proline/betaine transporter	0	1	1	NA	K03762	GC_00000444	1	1	12	12
+pantetheine-phosphate adenylyltransferase [EC:2.7.7.3]	0	1	1	NA	K00954	GC_00000786	1	1	12	12
+DNA polymerase III subunit delta [EC:2.7.7.7]	0	1	1	NA	K02340	GC_00000934	1	1	12	12
+phosphoglucomutase [EC:5.4.2.2]	0	1	1	NA	K01835	GC_00001738	1	1	12	12
+1-deoxy-D-xylulose-5-phosphate synthase [EC:2.2.1.7]	0	1	1	NA	K01662	GC_00001835	1	1	12	12
+CRISPR-associated endonuclease/helicase Cas3 [EC:3.1.-.- 5.6.2.4]	0	1	1	NA	K07012	GC_00001860	1	1	12	12
+GTP pyrophosphokinase [EC:2.7.6.5]	0	1	1	NA	K07816	GC_00001382	1	1	12	12
+dTDP-glucose 4,6-dehydratase [EC:4.2.1.46]	0	1	1	NA	K01710	GC_00000367	1	1	12	12
+D-methionine transport system ATP-binding protein	0	1	1	NA	K02071	GC_00000936	1	1	12	12
+preprotein translocase subunit SecY	0	1	1	NA	K03076	GC_00000538	1	1	12	12
+pyrroline-5-carboxylate reductase [EC:1.5.1.2]	0	1	1	NA	K00286	GC_00001421	1	1	12	12
+glutamate dehydrogenase (NADP+) [EC:1.4.1.4]	0	1	1	NA	K00262	GC_00000247	1	1	12	12
+protein-glutamine gamma-glutamyltransferase [EC:2.3.2.13]	0	1	1	NA	K22452	GC_00000152, GC_00000525	1	1	12	12
+cell division protein FtsZ	0	1	1	NA	K03531	GC_00001046	1	1	12	12
+phosphatidate cytidylyltransferase [EC:2.7.7.41]	0	1	1	NA	K00981	GC_00000566	1	1	12	12
+small subunit ribosomal protein S8	0	1	1	NA	K02994	GC_00000531	1	1	12	12
+cell division protein FtsQ	0	1	1	NA	K03589	GC_00000559	1	1	12	12
+fused signal recognition particle receptor	0	1	1	NA	K03110	GC_00000260	1	1	12	12
+16S rRNA (cytosine1402-N4)-methyltransferase [EC:2.1.1.199]	0	1	1	NA	K03438	GC_00001181	1	1	12	12
+anthranilate phosphoribosyltransferase [EC:2.4.2.18]	0	1	1	NA	K00766	GC_00000411	1	1	12	12
+L-cystine transport system permease protein	0	1	1	NA	K16959	GC_00000598, GC_00001735	1	1	12	12
+signal peptidase I [EC:3.4.21.89]	0	1	1	NA	K03100	GC_00001567	1	1	12	12
+UDP-N-acetylmuramate dehydrogenase [EC:1.3.1.98]	0	1	1	NA	K00075	GC_00000690	1	1	12	12
+resuscitation-promoting factor RpfB	0	1	1	NA	K21688	GC_00000943, GC_00001290	1	1	12	12
+putative thioredoxin	0	1	1	NA	K05838	GC_00000652	1	1	12	12
+thymidylate synthase [EC:2.1.1.45]	0	1	1	NA	K00560	GC_00001876	1	1	12	12
+uracil permease	0	1	1	NA	K02824	GC_00000895	1	1	12	12
+ribonuclease J [EC:3.1.-.-]	0	1	1	NA	K12574	GC_00001275	1	1	12	12
+holliday junction DNA helicase RuvA [EC:5.6.2.4]	0	1	1	NA	K03550	GC_00000822	1	1	12	12
+peptide/nickel transport system permease protein	0	1	1	NA	K02034	GC_00000285, GC_00000442, GC_00000648, GC_00001107	1	1	12	12
+small subunit ribosomal protein S13	0	1	1	NA	K02952	GC_00001099	1	1	12	12
+4-alpha-glucanotransferase [EC:2.4.1.25]	0	1	1	NA	K00705	GC_00000569, GC_00001052	1	1	12	12
+HTH-type transcriptional regulator / antitoxin HipB	0	1	1	NA	K15773	GC_00001661	1	1	12	12
+rhamnopyranosyl-N-acetylglucosaminyl-diphospho-decaprenol beta-1,3/1,4-galactofuranosyltransferase [EC:2.4.1.287]	0	1	1	NA	K16649	GC_00000967	1	1	12	12
+H+-translocating NAD(P) transhydrogenase subunit alpha [EC:1.6.1.2 7.1.1.1]	0	1	1	NA	K00324	GC_00000565, GC_00001432	1	1	12	12
+UDP-glucose/iron transport system ATP-binding protein	0	1	1	NA	K02068	GC_00001384	1	1	12	12
+type III pantothenate kinase [EC:2.7.1.33]	0	1	1	NA	K03525	GC_00000542	1	1	12	12
+glucosyl-3-phosphoglycerate phosphatase [EC:3.1.3.85]	0	1	1	NA	K22306	GC_00000575, GC_00000932	1	1	12	12
+alpha-maltose-1-phosphate synthase [EC:2.4.1.342]	0	1	1	NA	K16148	GC_00001073	1	1	12	12
+histidyl-tRNA synthetase [EC:6.1.1.21]	0	1	1	NA	K01892	GC_00000263	1	1	12	12
+choloylglycine hydrolase [EC:3.5.1.24]	0	1	1	NA	K01442	GC_00000755	1	1	12	12
+DNA polymerase III subunit beta [EC:2.7.7.7]	0	1	1	NA	K02338	GC_00001031	1	1	12	12
+peptide chain release factor 1	0	1	1	NA	K02835	GC_00001126	1	1	12	12
+transcription-repair coupling factor (superfamily II helicase) [EC:5.6.2.4]	0	1	1	NA	K03723	GC_00001647	1	1	12	12
+3-dehydroquinate dehydratase II [EC:4.2.1.10]	0	1	1	NA	K03786	GC_00001853	1	1	12	12
+ascorbate PTS system EIIC component	0	1	1	NA	K03475	GC_00000854	1	1	12	12
+polyribonucleotide nucleotidyltransferase [EC:2.7.7.8]	0	1	1	NA	K00962	GC_00001846	1	1	12	12
+DNA-directed RNA polymerase subunit beta [EC:2.7.7.6]	0	1	1	NA	K03043	GC_00001255	1	1	12	12
+adenylate kinase [EC:2.7.4.3]	0	1	1	NA	K00939	GC_00001361	1	1	12	12
+proteasome accessory factor A [EC:6.3.1.19]	0	1	1	NA	K13571	GC_00000827	1	1	12	12
+TetR/AcrR family transcriptional regulator	0	1	1	NA	K09017	GC_00001887	1	1	12	12
+translation initiation factor IF-2	0	1	1	NA	K02519	GC_00000220	1	1	12	12
+(R)-2-hydroxyacyl-CoA dehydratese activating ATPase [EC:5.6.1.9]	0	1	1	NA	K23876	GC_00000687	1	1	12	12
+competence protein ComEC	0	1	1	NA	K02238	GC_00000236	1	1	12	12
+branched-chain amino acid transport system permease protein	0	1	1	NA	K01998	GC_00000428, GC_00001096	1	1	12	12
+heat shock protein HtpX [EC:3.4.24.-]	0	1	1	NA	K03799	GC_00001211	1	1	12	12
+large subunit ribosomal protein L11	0	1	1	NA	K02867	GC_00001373	1	1	12	12
+uracil-DNA glycosylase [EC:3.2.2.27]	0	1	1	NA	K03648	GC_00000563	1	1	12	12
+antitoxin FitA	0	1	1	NA	K21495	GC_00001242	1	1	12	12
+CRP/FNR family transcriptional regulator, cyclic AMP receptor protein	0	1	1	NA	K10914	GC_00000533	1	1	12	12
+orotidine-5'-phosphate decarboxylase [EC:4.1.1.23]	0	1	1	NA	K01591	GC_00001000, GC_00001252	1	1	12	12
+nicotinate-nucleotide pyrophosphorylase (carboxylating) [EC:2.4.2.19]	0	1	1	NA	K00767	GC_00000703	1	1	12	12
+CRISPR-associated protein Cas2	0	1	1	NA	K09951	GC_00001629	1	1	12	12
+1-deoxy-D-xylulose-5-phosphate reductoisomerase [EC:1.1.1.267]	0	1	1	NA	K00099	GC_00000510	1	1	12	12
+tRNA (guanine-N7-)-methyltransferase [EC:2.1.1.33]	0	1	1	NA	K03439	GC_00001347	1	1	12	12
+starch synthase (maltosyl-transferring) [EC:2.4.99.16]	0	1	1	NA	K16147	GC_00000168	1	1	12	12
+two-component system, OmpR family, sensor kinase [EC:2.7.13.3]	0	1	1	NA	K02484	GC_00000677	1	1	12	12
+arabinogalactan oligomer / maltooligosaccharide transport system permease protein	0	1	1	NA	K15771	GC_00001213, GC_00001747	1	1	12	12
+cystathionine gamma-synthase [EC:2.5.1.48]	0	1	1	NA	K01739	GC_00000915	1	1	12	12
+methionyl-tRNA formyltransferase [EC:2.1.2.9]	0	1	1	NA	K00604	GC_00001601	1	1	12	12
+phosphoribosylformylglycinamidine cyclo-ligase [EC:6.3.3.1]	0	1	1	NA	K01933	GC_00001635	1	1	12	12
+endonuclease III [EC:4.2.99.18]	0	1	1	NA	K10773	GC_00000283	1	1	12	12
+linearmycin/streptolysin S transport system permease protein	0	1	1	NA	K25143	GC_00000959, GC_00001358	1	1	12	12
+MFS transporter, OFA family, oxalate/formate antiporter	0	1	1	NA	K08177	GC_00001199	1	1	12	12
+DNA recombination protein RmuC	0	1	1	NA	K09760	GC_00001398	1	1	12	12
+UTP--glucose-1-phosphate uridylyltransferase [EC:2.7.7.9]	0	1	1	NA	K00963	GC_00000356	1	1	12	12
+UDP-glucose/iron transport system permease protein	0	1	1	NA	K02069	GC_00000553	1	1	12	12
+aminoimidazole riboside kinase [EC:2.7.1.223]	0	1	1	NA	K23147	GC_00001148	1	1	12	12
+putative ABC transport system permease protein	0	1	1	NA	K02004	GC_00000027, GC_00000476, GC_00000532, GC_00000983, GC_00001154, GC_00001234, GC_00001302, GC_00001440, GC_00001556, GC_00001676, GC_00001868	1	1	12	12
+putative restriction endonuclease	0	1	1	NA	K07454	GC_00000090	1	1	12	12
+glutamate transport system substrate-binding protein	0	1	1	NA	K10005	GC_00001569	1	1	12	12
+carbamoyl-phosphate synthase small subunit [EC:6.3.5.5]	0	1	1	NA	K01956	GC_00000334	1	1	12	12
+orotate phosphoribosyltransferase [EC:2.4.2.10]	0	1	1	NA	K00762	GC_00001174	1	1	12	12
+phosphate transport system substrate-binding protein	0	1	1	NA	K02040	GC_00000206	1	1	12	12
+hexosaminidase [EC:3.2.1.52]	0	1	1	NA	K12373	GC_00000180	1	1	12	12
+fructose PTS system EIIA component [EC:2.7.1.202]	0	1	1	NA	K02768	GC_00001663	1	1	12	12
+thioredoxin 1	0	1	1	NA	K03671	GC_00000406	1	1	12	12
+hydroxyethylthiazole kinase [EC:2.7.1.50]	0	1	1	NA	K00878	GC_00000812	1	1	12	12
+polysaccharide biosynthesis protein PslL	0	1	1	NA	K21005	GC_00001019	1	1	12	12
+1,4-alpha-glucan branching enzyme [EC:2.4.1.18]	0	1	1	NA	K00700	GC_00001345	1	1	12	12
+tRNA-dihydrouridine synthase B [EC:1.-.-.-]	0	1	1	NA	K05540	GC_00001791	1	1	12	12
+DNA polymerase IV [EC:2.7.7.7]	0	1	1	NA	K02346	GC_00000266	1	1	12	12
+phosphoribosylaminoimidazolecarboxamide formyltransferase / IMP cyclohydrolase [EC:2.1.2.3 3.5.4.10]	0	1	1	NA	K00602	GC_00000739	1	1	12	12
+phosphohistidine phosphatase [EC:3.1.3.-]	0	1	1	NA	K08296	GC_00000891	1	1	12	12
+P-type Cu+ transporter [EC:7.2.2.8]	0	1	1	NA	K17686	GC_00000990	1	1	12	12
+probable rRNA maturation factor	0	1	1	NA	K07042	GC_00001479	1	1	12	12
+tRNA threonylcarbamoyladenosine biosynthesis protein TsaB	0	1	1	NA	K14742	GC_00000392	1	1	12	12
+DNA-damage-inducible protein J	0	1	1	NA	K07473	GC_00000276, GC_00000718, GC_00001161, GC_00001937	1	1	12	12
+F-type H+-transporting ATPase subunit epsilon	0	1	1	NA	K02114	GC_00000562	1	1	12	12
+multiple antibiotic resistance protein	0	1	1	NA	K05595	GC_00001132	1	1	12	12
+PPM family protein phosphatase [EC:3.1.3.16]	0	1	1	NA	K20074	GC_00001364	1	1	12	12
+4-carboxymuconolactone decarboxylase [EC:4.1.1.44]	0	1	1	NA	K01607	GC_00000709	1	1	12	12
+dihydroorotate dehydrogenase [EC:1.3.5.2]	0	1	1	NA	K00254	GC_00001256	1	1	12	12
+CTP synthase [EC:6.3.4.2]	0	1	1	NA	K01937	GC_00000790	1	1	12	12
+CsoR family transcriptional regulator, copper-sensing transcriptional repressor	0	1	1	NA	K21600	GC_00001542	1	1	12	12
+cell division protein DivIC	0	1	1	NA	K13052	GC_00000275	1	1	12	12
+signal recognition particle subunit SRP54 [EC:3.6.5.4]	0	1	1	NA	K03106	GC_00000142	1	1	12	12
+anthraniloyl-CoA monooxygenase [EC:1.14.13.40]	0	1	1	NA	K09461	GC_00000419	1	1	12	12
+4-hydroxy-tetrahydrodipicolinate synthase [EC:4.3.3.7]	0	1	1	NA	K01714	GC_00000746, GC_00001208	1	1	12	12
+aconitate hydratase [EC:4.2.1.3]	0	1	1	NA	K01681	GC_00000264	1	1	12	12
+adenylosuccinate synthase [EC:6.3.4.4]	0	1	1	NA	K01939	GC_00001223	1	1	12	12
+DNA topoisomerase I [EC:5.6.2.1]	0	1	1	NA	K03168	GC_00000722	1	1	12	12
+iron complex transport system ATP-binding protein [EC:7.2.2.-]	0	1	1	NA	K02013	GC_00000996	1	1	12	12
+Xaa-Pro aminopeptidase [EC:3.4.11.9]	0	1	1	NA	K01262	GC_00001235	1	1	12	12
+exopolyphosphatase / guanosine-5'-triphosphate,3'-diphosphate pyrophosphatase [EC:3.6.1.11 3.6.1.40]	0	1	1	NA	K01524	GC_00000280, GC_00001162	1	1	12	12
+4-hydroxy-3-methylbut-2-en-1-yl diphosphate reductase [EC:1.17.7.4]	0	1	1	NA	K03527	GC_00001644	1	1	12	12
+large subunit ribosomal protein L30	0	1	1	NA	K02907	GC_00001006	1	1	12	12
+hydroxymethylpyrimidine/phosphomethylpyrimidine kinase [EC:2.7.1.49 2.7.4.7]	0	1	1	NA	K00941	GC_00001141	1	1	12	12
+F420H(2)-dependent quinone reductase [EC:1.1.98.-]	0	1	1	NA	K00540	GC_00000961	1	1	12	12
+fructokinase [EC:2.7.1.4]	0	1	1	NA	K00847	GC_00001295	1	1	12	12
+F-type H+/Na+-transporting ATPase subunit beta [EC:7.1.2.2 7.2.2.1]	0	1	1	NA	K02112	GC_00001743	1	1	12	12
+2-aminoadipate transaminase [EC:2.6.1.-]	0	1	1	NA	K05825	GC_00000214	1	1	12	12
+tyrosyl-tRNA synthetase [EC:6.1.1.1]	0	1	1	NA	K01866	GC_00001425	1	1	12	12
+N-acetylhexosamine 1-kinase [EC:2.7.1.162]	0	1	1	NA	K13059	GC_00000847	1	1	12	12
+pyridoxal 5'-phosphate synthase pdxT subunit [EC:4.3.3.6]	0	1	1	NA	K08681	GC_00001842	1	1	12	12
+DNA polymerase III subunit gamma/tau [EC:2.7.7.7]	0	1	1	NA	K02343	GC_00001939	1	1	12	12
+tRNA N6-adenosine threonylcarbamoyltransferase [EC:2.3.1.234]	0	1	1	NA	K25706	GC_00000320	1	1	12	12
+UDP-N-acetylglucosamine--N-acetylmuramyl-(pentapeptide) pyrophosphoryl-undecaprenol N-acetylglucosamine transferase [EC:2.4.1.227]	0	1	1	NA	K02563	GC_00001078	1	1	12	12
+rhomboid protease GluP [EC:3.4.21.105]	0	1	1	NA	K19225	GC_00001917	1	1	12	12
+L-serine dehydratase [EC:4.3.1.17]	0	1	1	NA	K01752	GC_00000030	1	1	12	12
+nitrogen regulatory protein P-II 1	0	1	1	NA	K04751	GC_00001292	1	1	12	12
+cystathionine beta-synthase [EC:4.2.1.22]	0	1	1	NA	K01697	GC_00000422	1	1	12	12
+polyphosphate glucokinase [EC:2.7.1.63]	0	1	1	NA	K00886	GC_00000057	1	1	12	12
+elongation factor P	0	1	1	NA	K02356	GC_00000696	1	1	12	12
+D-alanine-D-alanine ligase [EC:6.3.2.4]	0	1	1	NA	K01921	GC_00001153	1	1	12	12
+guanylate kinase [EC:2.7.4.8]	0	1	1	NA	K00942	GC_00000887	1	1	12	12
+large subunit ribosomal protein L18	0	1	1	NA	K02881	GC_00000885	1	1	12	12
+ATP-dependent helicase HrpA [EC:3.6.4.13]	0	1	1	NA	K03578	GC_00001653	1	1	12	12
+S-adenosylmethionine synthetase [EC:2.5.1.6]	0	1	1	NA	K00789	GC_00000060	1	1	12	12
+glutathione transport system ATP-binding protein	0	1	1	NA	K13892	GC_00000526	1	1	12	12
+glycerol-3-phosphate dehydrogenase (NAD(P)+) [EC:1.1.1.94]	0	1	1	NA	K00057	GC_00001488	1	1	12	12
+ferredoxin/flavodoxin---NADP+ reductase [EC:1.18.1.2 1.19.1.1]	0	1	1	NA	K00528	GC_00001059	1	1	12	12
+cytochrome c oxidase subunit 1 [EC:7.1.1.9]	0	1	1	NA	K02256	GC_00001972	1	1	12	12
+putative sigma-54 modulation protein	0	1	1	NA	K05808	GC_00001077	1	1	12	12
+23S rRNA pseudouridine1911/1915/1917 synthase [EC:5.4.99.23]	0	1	1	NA	K06180	GC_00000908	1	1	12	12
+CRISPR-associated protein Csd2	0	1	1	NA	K19118	GC_00000974	1	1	12	12
+aspartate carbamoyltransferase regulatory subunit	0	1	1	NA	K00610	GC_00000418	1	1	12	12
+large subunit ribosomal protein L1	0	1	1	NA	K02863	GC_00000513	1	1	12	12
+(E)-4-hydroxy-3-methylbut-2-enyl-diphosphate synthase [EC:1.17.7.1 1.17.7.3]	0	1	1	NA	K03526	GC_00000900	1	1	12	12
+aspartyl-tRNA(Asn)/glutamyl-tRNA(Gln) amidotransferase subunit A [EC:6.3.5.6 6.3.5.7]	0	1	1	NA	K02433	GC_00001792	1	1	12	12
+glutamate transport system ATP-binding protein [EC:7.4.2.1]	0	1	1	NA	K10008	GC_00001304	1	1	12	12
+GntR family transcriptional regulator, regulator for abcA and norABC	0	1	1	NA	K18907	GC_00001283	1	1	12	12
+recombination protein RecA	0	1	1	NA	K03553	GC_00000138	1	1	12	12
+DNA (cytosine-5)-methyltransferase 1 [EC:2.1.1.37]	0	1	1	NA	K00558	GC_00000300, GC_00000947	1	1	12	12
+phosphoribosylglycinamide formyltransferase 2 [EC:6.3.1.21]	0	1	1	NA	K08289	GC_00001351	1	1	12	12
+kojibiose phosphorylase [EC:2.4.1.230]	0	1	1	NA	K10231	GC_00001138	1	1	12	12
+beta-galactosidase [EC:3.2.1.23]	0	1	1	NA	K12308	GC_00000043, GC_00000450, GC_00000451, GC_00001750	1	1	12	12
+integrase/recombinase XerD	0	1	1	NA	K04763	GC_00000228, GC_00000925	1	1	12	12
+pullulanase [EC:3.2.1.41]	0	1	1	NA	K01200	GC_00000209	1	1	12	12
+DNA segregation ATPase FtsK/SpoIIIE, S-DNA-T family	0	1	1	NA	K03466	GC_00000254, GC_00001527	1	1	12	12
+glycerophosphoryl diester phosphodiesterase [EC:3.1.4.46]	0	1	1	NA	K01126	GC_00000329	1	1	12	12
+two-component system, OmpR family, response regulator	0	1	1	NA	K02483	GC_00000633, GC_00001137	1	1	12	12
+oleate hydratase [EC:4.2.1.53]	0	1	1	NA	K10254	GC_00000055	1	1	12	12
+cysteine-S-conjugate beta-lyase [EC:4.4.1.13]	0	1	1	NA	K14155	GC_00000091, GC_00001061	1	1	12	12
+L-lysine exporter family protein LysE/ArgO	0	1	1	NA	K06895	GC_00001133	1	1	12	12
+5-(carboxyamino)imidazole ribonucleotide synthase [EC:6.3.4.18]	0	1	1	NA	K01589	GC_00001136	1	1	12	12
+membrane protein	0	1	1	NA	K25089	GC_00000433, GC_00000434, GC_00001037	1	1	12	12
+holliday junction DNA helicase RuvB [EC:5.6.2.4]	0	1	1	NA	K03551	GC_00000431	1	1	12	12
+CAAX protease family protein	0	1	1	NA	K07052	GC_00000108	1	1	12	12
+ribonuclease D [EC:3.1.13.5]	0	1	1	NA	K03684	GC_00001390	1	1	12	12
+large subunit ribosomal protein L32	0	1	1	NA	K02911	GC_00000272	1	1	12	12
+lipopolysaccharide transport system ATP-binding protein	0	1	1	NA	K09691	GC_00000865	1	1	12	12
+threonine synthase [EC:4.2.3.1]	0	1	1	NA	K01733	GC_00000307	1	1	12	12
+serine-type D-Ala-D-Ala carboxypeptidase/endopeptidase (penicillin-binding protein 4) [EC:3.4.16.4 3.4.21.-]	0	1	1	NA	K07259	GC_00000945	1	1	12	12
+protein involved in ribonucleotide reduction	0	1	1	NA	K03647	GC_00001412	1	1	12	12
+peptide/nickel transport system substrate-binding protein	0	1	1	NA	K02035	GC_00001539, GC_00001883, GC_00001913	1	1	12	12
+chromate reductase, NAD(P)H dehydrogenase (quinone)	0	1	1	NA	K19784	GC_00000471	1	1	12	12
+large subunit ribosomal protein L19	0	1	1	NA	K02884	GC_00000182	1	1	12	12
+Pup amidohydrolase [EC:3.5.1.119]	0	1	1	NA	K20814	GC_00000555	1	1	12	12
+cell division protease FtsH [EC:3.4.24.-]	0	1	1	NA	K03798	GC_00001088	1	1	12	12
+holo-[acyl-carrier protein] synthase [EC:2.7.8.7]	0	1	1	NA	K00997	GC_00000639	1	1	12	12
+ribonuclease E [EC:3.1.26.12]	0	1	1	NA	K08300	GC_00000707	1	1	12	12
+glutamate-5-semialdehyde dehydrogenase [EC:1.2.1.41]	0	1	1	NA	K00147	GC_00001094	1	1	12	12
+tRNA pseudouridine38-40 synthase [EC:5.4.99.12]	0	1	1	NA	K06173	GC_00001380	1	1	12	12
+F-type H+-transporting ATPase subunit c	0	1	1	NA	K02110	GC_00000773	1	1	12	12
+malate permease and related proteins	0	1	1	NA	K24180	GC_00000685, GC_00001282	1	1	12	12
+repressor LexA [EC:3.4.21.88]	0	1	1	NA	K01356	GC_00001285	1	1	12	12
+tRNA-2-methylthio-N6-dimethylallyladenosine synthase [EC:2.8.4.3]	0	1	1	NA	K06168	GC_00001095	1	1	12	12
+small subunit ribosomal protein S3	0	1	1	NA	K02982	GC_00001227	1	1	12	12
+acetaldehyde dehydrogenase / alcohol dehydrogenase [EC:1.2.1.10 1.1.1.1]	0	1	1	NA	K04072	GC_00001664	1	1	12	12
+GTP cyclohydrolase IA [EC:3.5.4.16]	0	1	1	NA	K01495	GC_00000678	1	1	12	12
+adenosylhomocysteine nucleosidase [EC:3.2.2.9]	0	1	1	NA	K01243	GC_00000966	1	1	12	12
+ribonuclease HI [EC:3.1.26.4]	0	1	1	NA	K03469	GC_00000602, GC_00002005	1	1	12	12
+glucose-1-phosphate thymidylyltransferase [EC:2.7.7.24]	0	1	1	NA	K00973	GC_00000574	1	1	12	12
+DNA repair protein RadA/Sms	0	1	1	NA	K04485	GC_00001698	1	1	12	12
+maltose O-acetyltransferase [EC:2.3.1.79]	0	1	1	NA	K00661	GC_00000364, GC_00000638	1	1	12	12
+endonuclease III related protein	0	1	1	NA	K07457	GC_00000965	1	1	12	12
+leucyl-tRNA synthetase [EC:6.1.1.4]	0	1	1	NA	K01869	GC_00001164	1	1	12	12
+3-isopropylmalate/(R)-2-methylmalate dehydratase small subunit [EC:4.2.1.33 4.2.1.35]	0	1	1	NA	K01704	GC_00000374	1	1	12	12
+elongation factor Ts	0	1	1	NA	K02357	GC_00000502	1	1	12	12
+ABC-2 type transport system ATP-binding protein	0	1	1	NA	K01990	GC_00000556, GC_00000803, GC_00001004, GC_00001051, GC_00001769	1	1	12	12
+alcohol dehydrogenase [EC:1.1.1.-]	0	1	1	NA	K19955	GC_00000298	1	1	12	12
+translational activator of cytochrome c oxidase 1	0	1	1	NA	K18189	GC_00001781	1	1	12	12
+H+-translocating NAD(P) transhydrogenase subunit beta [EC:1.6.1.2 7.1.1.1]	0	1	1	NA	K00325	GC_00000924	1	1	12	12
+ribonucleoside-diphosphate reductase alpha chain [EC:1.17.4.1]	0	1	1	NA	K00525	GC_00001501	1	1	12	12
+sialidase-1 [EC:3.2.1.18]	0	1	1	NA	K01186	GC_00000463	1	1	12	12
+DNA-directed RNA polymerase subunit omega [EC:2.7.7.6]	0	1	1	NA	K03060	GC_00000505	1	1	12	12
+teichuronic acid biosynthesis glycosyltransferase TuaG [EC:2.4.-.-]	0	1	1	NA	K16698	GC_00000958, GC_00001063	1	1	12	12
+peptide deformylase [EC:3.5.1.88]	0	1	1	NA	K01462	GC_00000151, GC_00000872, GC_00001189	1	1	12	12
+AraC family transcriptional regulator	0	1	1	NA	K13653	GC_00000358	1	1	12	12
+Cys-tRNA(Pro)/Cys-tRNA(Cys) deacylase [EC:3.1.1.-]	0	1	1	NA	K03976	GC_00000522	1	1	12	12
+O-acetyl-ADP-ribose deacetylase [EC:3.1.1.106]	0	1	1	NA	K23518	GC_00001537	1	1	12	12
+branched-chain amino acid aminotransferase [EC:2.6.1.42]	0	1	1	NA	K00826	GC_00000248	1	1	12	12
+aspartate ammonia-lyase [EC:4.3.1.1]	0	1	1	NA	K01744	GC_00000916	1	1	12	12
+two-component system, OmpR family, sensor histidine kinase SenX3 [EC:2.7.13.3]	0	1	1	NA	K07768	GC_00001790, GC_00001905	1	1	12	12
+DNA topoisomerase III [EC:5.6.2.1]	0	1	1	NA	K03169	GC_00000257	1	1	12	12
+putative membrane protein	0	1	1	NA	K08972	GC_00000271, GC_00000888, GC_00001151, GC_00001188, GC_00001332, GC_00001646	1	1	12	12
+glycine cleavage system H protein	0	1	1	NA	K02437	GC_00000650	1	1	12	12
+TetR/AcrR family transcriptional regulator, tetracycline repressor protein	0	1	1	NA	K18476	GC_00001066	1	1	12	12
+energy-coupling factor transport system ATP-binding protein [EC:7.-.-.-]	0	1	1	NA	K01552	GC_00001438	1	1	12	12
+RNA methyltransferase, TrmH family	0	1	1	NA	K03437	GC_00001150, GC_00001376	1	1	12	12
+beta-fructofuranosidase [EC:3.2.1.26]	0	1	1	NA	K01193	GC_00000834	1	1	12	12
+phosphoserine phosphatase [EC:3.1.3.3]	0	1	1	NA	K01079	GC_00000439, GC_00001350	1	1	12	12
+P-type Ca2+ transporter type 2C [EC:7.2.2.10]	0	1	1	NA	K01537	GC_00001679	1	1	12	12
+transcription elongation factor GreA	0	1	1	NA	K03624	GC_00000050	1	1	12	12
+recombination protein RecR	0	1	1	NA	K06187	GC_00000835	1	1	12	12
+[ribosomal protein S18]-alanine N-acetyltransferase [EC:2.3.1.266]	0	1	1	NA	K03789	GC_00001582	1	1	12	12
+putative endopeptidase [EC:3.4.24.-]	0	1	1	NA	K07386	GC_00001410	1	1	12	12
+[acyl-carrier-protein] S-malonyltransferase [EC:2.3.1.39]	0	1	1	NA	K00645	GC_00000031	1	1	12	12
+replicative DNA helicase [EC:5.6.2.3]	0	1	1	NA	K02314	GC_00001885	1	1	12	12
+16S rRNA (adenine1518-N6/adenine1519-N6)-dimethyltransferase [EC:2.1.1.182]	0	1	1	NA	K02528	GC_00001637	1	1	12	12
+mRNA interferase MazF [EC:3.1.-.-]	0	1	1	NA	K07171	GC_00001329, GC_00001443	1	1	12	12
+glyoxylate/hydroxypyruvate reductase [EC:1.1.1.79 1.1.1.81]	0	1	1	NA	K12972	GC_00000401	1	1	12	12
+glyceraldehyde 3-phosphate dehydrogenase (phosphorylating) [EC:1.2.1.12]	0	1	1	NA	K00134	GC_00001224	1	1	12	12
+linearmycin/streptolysin S transport system ATP-binding protein	0	1	1	NA	K25144	GC_00001474	1	1	12	12
+glutamate N-acetyltransferase / amino-acid N-acetyltransferase [EC:2.3.1.35 2.3.1.1]	0	1	1	NA	K00620	GC_00000998	1	1	12	12
+large subunit ribosomal protein L35	0	1	1	NA	K02916	GC_00000297	1	1	12	12
+ABC transport system ATP-binding/permease protein	0	1	1	NA	K15738	GC_00001728	1	1	12	12
+nicotinamide-nucleotide amidase [EC:3.5.1.42]	0	1	1	NA	K03743	GC_00000729	1	1	12	12
+two-component system, response regulator PdtaR	0	1	1	NA	K22010	GC_00000801	1	1	12	12
+Fe-S cluster assembly protein SufD	0	1	1	NA	K09015	GC_00001043	1	1	12	12
+L-amino acid N-acyltransferase [EC:2.3.1.-]	0	1	1	NA	K24217	GC_00001798	1	1	12	12
+peptidoglycan DL-endopeptidase CwlO [EC:3.4.-.-]	0	1	1	NA	K21471	GC_00001875	1	1	12	12
+D-allulose-6-phosphate 3-epimerase [EC:5.1.3.-]	0	1	1	NA	K17195	GC_00000169	1	1	12	12
+raffinose/stachyose/melibiose transport system substrate-binding protein	0	1	1	NA	K10117	GC_00000109, GC_00000623	1	1	12	12
+molybdopterin-synthase adenylyltransferase [EC:2.7.7.80]	0	1	1	NA	K21029	GC_00000682	1	1	12	12
+large subunit ribosomal protein L3	0	1	1	NA	K02906	GC_00001489	1	1	12	12
+phosphoserine aminotransferase [EC:2.6.1.52]	0	1	1	NA	K00831	GC_00001206	1	1	12	12
+oligopeptide transport system permease protein	0	1	1	NA	K15582	GC_00000340, GC_00001657	1	1	12	12
+polysaccharide biosynthesis protein PelG	0	1	1	NA	K21012	GC_00001841	1	1	12	12
+macrolide phosphotransferase	0	1	1	NA	K06979	GC_00001286	1	1	12	12
+enolase [EC:4.2.1.11]	0	1	1	NA	K01689	GC_00000319	1	1	12	12
+N-acetylglucosamine-6-phosphate deacetylase [EC:3.5.1.25]	0	1	1	NA	K01443	GC_00000673, GC_00000674	1	1	12	12
+dihydroorotate dehydrogenase (NAD+) catalytic subunit [EC:1.3.1.14]	0	1	1	NA	K17828	GC_00000751	1	1	12	12
+amidophosphoribosyltransferase [EC:2.4.2.14]	0	1	1	NA	K00764	GC_00001032	1	1	12	12
+S-methylmethionine transporter	0	1	1	NA	K16235	GC_00001594, GC_00001595	1	1	12	12
+small subunit ribosomal protein S12	0	1	1	NA	K02950	GC_00001505	1	1	12	12
+23S rRNA (pseudouridine1915-N3)-methyltransferase [EC:2.1.1.177]	0	1	1	NA	K00783	GC_00001157	1	1	12	12
+adenine-specific DNA-methyltransferase [EC:2.1.1.72]	0	1	1	NA	K07317	GC_00000741, GC_00000756	1	1	12	12
+methylenetetrahydrofolate dehydrogenase (NADP+) / methenyltetrahydrofolate cyclohydrolase [EC:1.5.1.5 3.5.4.9]	0	1	1	NA	K01491	GC_00001251	1	1	12	12
+mRNA interferase HicA [EC:3.1.-.-]	0	1	1	NA	K07339	GC_00001320	1	1	12	12
+mycoredoxin [EC:1.20.4.3]	0	1	1	NA	K18917	GC_00000177	1	1	12	12
+homoserine O-succinyltransferase/O-acetyltransferase [EC:2.3.1.46 2.3.1.31]	0	1	1	NA	K00651	GC_00000878	1	1	12	12
+cell division transport system permease protein	0	1	1	NA	K09811	GC_00001183	1	1	12	12
+NAD-dependent deacetylase [EC:2.3.1.286]	0	1	1	NA	K12410	GC_00001718	1	1	12	12
+lysyl-tRNA synthetase, class II [EC:6.1.1.6]	0	1	1	NA	K04567	GC_00000591	1	1	12	12
+acyl-CoA thioesterase II [EC:3.1.2.-]	0	1	1	NA	K10805	GC_00001456	1	1	12	12
+ribose transport system substrate-binding protein	0	1	1	NA	K10439	GC_00000610, GC_00000800	1	1	12	12
+cytosine/creatinine deaminase [EC:3.5.4.1 3.5.4.21]	0	1	1	NA	K01485	GC_00001548	1	1	12	12
+dihydroorotate dehydrogenase electron transfer subunit	0	1	1	NA	K02823	GC_00001816	1	1	12	12
+chloramphenicol-sensitive protein RarD	0	1	1	NA	K05786	GC_00000129	1	1	12	12
+dipeptidase E [EC:3.4.13.21]	0	1	1	NA	K05995	GC_00000724	1	1	12	12
+glutamyl-Q tRNA(Asp) synthetase [EC:6.1.1.-]	0	1	1	NA	K01894	GC_00001867	1	1	12	12
+lipopolysaccharide transport system permease protein	0	1	1	NA	K09690	GC_00001634	1	1	12	12
+U32 family peptidase [EC:3.4.-.-]	0	1	1	NA	K08303	GC_00000728	1	1	12	12
+large subunit ribosomal protein L7/L12	0	1	1	NA	K02935	GC_00000735	1	1	12	12
+L-threonylcarbamoyladenylate synthase [EC:2.7.7.87]	0	1	1	NA	K07566	GC_00000341	1	1	12	12
+tellurite resistance protein TerC	0	1	1	NA	K05794	GC_00001586	1	1	12	12
+succinyl-diaminopimelate desuccinylase [EC:3.5.1.18]	0	1	1	NA	K01439	GC_00000794	1	1	12	12
+sodium/proline symporter	0	1	1	NA	K11928	GC_00001734	1	1	12	12
+methylated-DNA-[protein]-cysteine S-methyltransferase [EC:2.1.1.63]	0	1	1	NA	K00567	GC_00000240	1	1	12	12
+N-acetylglucosamine PTS system EIICBA or EIICB component [EC:2.7.1.193]	0	1	1	NA	K02804	GC_00001420	1	1	12	12
+putative ATPase	0	1	1	NA	K07478	GC_00001230	1	1	12	12
+large subunit ribosomal protein L5	0	1	1	NA	K02931	GC_00000845	1	1	12	12
+glutamate racemase [EC:5.1.1.3]	0	1	1	NA	K01776	GC_00000229	1	1	12	12
+dTMP kinase [EC:2.7.4.9]	0	1	1	NA	K00943	GC_00000528	1	1	12	12
+pyruvate formate lyase activating enzyme [EC:1.97.1.4]	0	1	1	NA	K04069	GC_00000564, GC_00000636	1	1	12	12
+purine nucleosidase [EC:3.2.2.1]	0	1	1	NA	K01239	GC_00001002	1	1	12	12
+nicotinamidase/pyrazinamidase [EC:3.5.1.19 3.5.1.-]	0	1	1	NA	K08281	GC_00000880	1	1	12	12
+glucosamine-6-phosphate deaminase [EC:3.5.99.6]	0	1	1	NA	K02564	GC_00000003	1	1	12	12
+ribonuclease III [EC:3.1.26.3]	0	1	1	NA	K03685	GC_00001016	1	1	12	12
+3-oxoadipate enol-lactonase [EC:3.1.1.24]	0	1	1	NA	K01055	GC_00000120	1	1	12	12
+cytidine deaminase [EC:3.5.4.5]	0	1	1	NA	K01489	GC_00000710	1	1	12	12
+dephospho-CoA kinase [EC:2.7.1.24]	0	1	1	NA	K00859	GC_00000679	1	1	12	12
+23S rRNA (guanosine2251-2'-O)-methyltransferase [EC:2.1.1.185]	0	1	1	NA	K03218	GC_00001453	1	1	12	12
+sucrose phosphorylase [EC:2.4.1.7]	0	1	1	NA	K00690	GC_00000627	1	1	12	12
+exopolysaccharide production protein ExoY	0	1	1	NA	K16566	GC_00000033	1	1	12	12
+NitT/TauT family transport system substrate-binding protein	0	1	1	NA	K02051	GC_00000068	1	1	12	12
+putative transcriptional regulator	0	1	1	NA	K07727	GC_00000144	1	1	12	12
+NitT/TauT family transport system permease protein	0	1	1	NA	K02050	GC_00000734, GC_00001665	1	1	12	12
+phosphoribosyl-ATP pyrophosphohydrolase [EC:3.6.1.31]	0	1	1	NA	K01523	GC_00001768	1	1	12	12
+N-acetyl-gamma-glutamyl-phosphate reductase [EC:1.2.1.38]	0	1	1	NA	K00145	GC_00001334	1	1	12	12
+inorganic phosphate transporter, PiT family	0	1	1	NA	K03306	GC_00001854	1	1	12	12
+translation initiation factor IF-3	0	1	1	NA	K02520	GC_00000772	1	1	12	12
+1,3-beta-galactosyl-N-acetylhexosamine phosphorylase [EC:2.4.1.211]	0	1	1	NA	K15533	GC_00000787	1	1	12	12
+energy-coupling factor transport system substrate-specific component	0	1	1	NA	K16923	GC_00000614	1	1	12	12
+adenine phosphoribosyltransferase [EC:2.4.2.7]	0	1	1	NA	K00759	GC_00001602	1	1	12	12
+FAD:protein FMN transferase [EC:2.7.1.180]	0	1	1	NA	K03734	GC_00001482	1	1	12	12
+dUTP pyrophosphatase [EC:3.6.1.23]	0	1	1	NA	K01520	GC_00001451	1	1	12	12
+6-phosphogluconolactonase [EC:3.1.1.31]	0	1	1	NA	K01057	GC_00000234, GC_00001767	1	1	12	12
+acetolactate synthase I/III small subunit [EC:2.2.1.6]	0	1	1	NA	K01653	GC_00000338	1	1	12	12
+aquaporin Z	0	1	1	NA	K06188	GC_00000164	1	1	12	12
+aspartate aminotransferase [EC:2.6.1.1]	0	1	1	NA	K00812	GC_00000844, GC_00001550	1	1	12	12
+uridylate kinase [EC:2.7.4.22]	0	1	1	NA	K09903	GC_00001742	1	1	12	12
+XTP/dITP diphosphohydrolase [EC:3.6.1.66]	0	1	1	NA	K01519	GC_00001499	1	1	12	12
+small subunit ribosomal protein S1	0	1	1	NA	K02945	GC_00000365	1	1	12	12
+ATP-dependent DNA helicase RecG [EC:5.6.2.4]	0	1	1	NA	K03655	GC_00001614	1	1	12	12
+ribose-phosphate pyrophosphokinase [EC:2.7.6.1]	0	1	1	NA	K00948	GC_00000016, GC_00001105	1	1	12	12
+bleomycin hydrolase [EC:3.4.22.40]	0	1	1	NA	K01372	GC_00000446, GC_00001426, GC_00001427	1	1	12	12
+ribonuclease P protein component [EC:3.1.26.5]	0	1	1	NA	K03536	GC_00001771	1	1	12	12
+UDP-GlcNAc:undecaprenyl-phosphate/decaprenyl-phosphate GlcNAc-1-phosphate transferase [EC:2.7.8.33 2.7.8.35]	0	1	1	NA	K02851	GC_00001572	1	1	12	12
+MFS transporter, FHS family, glucose/mannose:H+ symporter	0	1	1	NA	K08174	GC_00000453	1	1	12	12
+elongation factor Tu	0	1	1	NA	K02358	GC_00000388	1	1	12	12
+phosphate starvation-inducible protein PhoH and related proteins	0	1	1	NA	K06217	GC_00001902	1	1	12	12
+two-component system, sensor histidine kinase PdtaS [EC:2.7.13.3]	0	1	1	NA	K00936	GC_00000617	1	1	12	12
+cellobiose transport system permease protein	0	1	1	NA	K10242	GC_00000716, GC_00001396	1	1	12	12
+two-component system, NarL family, sensor histidine kinase DesK [EC:2.7.13.3]	0	1	1	NA	K07778	GC_00001715	1	1	12	12
+aspartate carbamoyltransferase catalytic subunit [EC:2.1.3.2]	0	1	1	NA	K00609	GC_00001912	1	1	12	12
+phosphate transport system protein	0	1	1	NA	K02039	GC_00001018	1	1	12	12
+CRISPR-associated protein Cas5d	0	1	1	NA	K19119	GC_00001305	1	1	12	12
+glucose-6-phosphate 1-epimerase [EC:5.1.3.15]	0	1	1	NA	K01792	GC_00000296, GC_00001143	1	1	12	12
+cyclopropane-fatty-acyl-phospholipid synthase [EC:2.1.1.79]	0	1	1	NA	K00574	GC_00001071	1	1	12	12
+small subunit ribosomal protein S15	0	1	1	NA	K02956	GC_00000156	1	1	12	12
+DNA repair protein RecN (Recombination protein N)	0	1	1	NA	K03631	GC_00000354	1	1	12	12
+RNA polymerase primary sigma factor	0	1	1	NA	K03086	GC_00001163	1	1	12	12
+putative serine protease PepD [EC:3.4.21.-]	0	1	1	NA	K08372	GC_00000306	1	1	12	12
+ATP-dependent Clp protease ATP-binding subunit ClpX	0	1	1	NA	K03544	GC_00000349	1	1	12	12
+D-3-phosphoglycerate dehydrogenase / 2-oxoglutarate reductase [EC:1.1.1.95 1.1.1.399]	0	1	1	NA	K00058	GC_00001012	1	1	12	12
+beta-glucosidase [EC:3.2.1.21]	0	1	1	NA	K05349	GC_00000002, GC_00000583, GC_00001026, GC_00001129, GC_00001323	1	1	12	12
+beta-glucoside operon transcriptional antiterminator	0	1	1	NA	K03488	GC_00001684	1	1	12	12
+transposase	0	1	1	NA	K07485	GC_00000009, GC_00000178, GC_00000551, GC_00001534, GC_00001535, GC_00001600	1	1	12	12
+UDP-N-acetylmuramoylalanine--D-glutamate ligase [EC:6.3.2.9]	0	1	1	NA	K01925	GC_00000842	1	1	12	12
+phosphatidylglycerol---prolipoprotein diacylglyceryl transferase [EC:2.5.1.145]	0	1	1	NA	K13292	GC_00001232	1	1	12	12
+L-fuconate dehydratase [EC:4.2.1.68]	0	1	1	NA	K18334	GC_00001250	1	1	12	12
+fructose-bisphosphate aldolase, class II [EC:4.1.2.13]	0	1	1	NA	K01624	GC_00000308	1	1	12	12
+oxygen-independent coproporphyrinogen III oxidase [EC:1.3.98.3]	0	1	1	NA	K02495	GC_00000029	1	1	12	12
+16S rRNA (uracil1498-N3)-methyltransferase [EC:2.1.1.193]	0	1	1	NA	K09761	GC_00001899	1	1	12	12
+alanine racemase [EC:5.1.1.1]	0	1	1	NA	K01775	GC_00001839	1	1	12	12
+nucleoside triphosphate pyrophosphatase [EC:3.6.1.-]	0	1	1	NA	K06287	GC_00001408	1	1	12	12
+large conductance mechanosensitive channel	0	1	1	NA	K03282	GC_00001395	1	1	12	12
+RNase adapter protein RapZ	0	1	1	NA	K06958	GC_00001751	1	1	12	12
+sulfoquinovose isomerase [EC:5.3.1.31]	0	1	1	NA	K18479	GC_00000288	1	1	12	12
+DNA-directed RNA polymerase subunit alpha [EC:2.7.7.6]	0	1	1	NA	K03040	GC_00000642	1	1	12	12
+UDPglucose--hexose-1-phosphate uridylyltransferase [EC:2.7.7.12]	0	1	1	NA	K00965	GC_00000146	1	1	12	12
+[protein-PII] uridylyltransferase [EC:2.7.7.59]	0	1	1	NA	K00990	GC_00001896	1	1	12	12
+crossover junction endodeoxyribonuclease RuvC [EC:3.1.21.10]	0	1	1	NA	K01159	GC_00000727	1	1	12	12
+cellobiose transport system substrate-binding protein	0	1	1	NA	K10240	GC_00001378	1	1	12	12
+glutathione transport system substrate-binding protein	0	1	1	NA	K13889	GC_00000134	1	1	12	12
+transcription termination factor Rho	0	1	1	NA	K03628	GC_00001812	1	1	12	12
+beta-phosphoglucomutase [EC:5.4.2.6]	0	1	1	NA	K01838	GC_00001198	1	1	12	12
+peptide chain release factor 2	0	1	1	NA	K02836	GC_00001590	1	1	12	12
+riboflavin transporter	0	1	1	NA	K23675	GC_00000938	1	1	12	12
+ferredoxin	0	1	1	NA	K05524	GC_00001627	1	1	12	12
+large subunit ribosomal protein L9	0	1	1	NA	K02939	GC_00001027	1	1	12	12
+malonate transporter and related proteins	0	1	1	NA	K13936	GC_00000315	1	1	12	12
+DNA processing protein	0	1	1	NA	K04096	GC_00000430, GC_00001248	1	1	12	12
+MFS transporter, DHA2 family, metal-tetracycline-proton antiporter	0	1	1	NA	K08168	GC_00000378	1	1	12	12
+WhiB family transcriptional regulator, redox-sensing transcriptional regulator	0	1	1	NA	K18955	GC_00000993, GC_00001299	1	1	12	12
+polar amino acid transport system substrate-binding protein	0	1	1	NA	K02030	GC_00000832, GC_00001301, GC_00001528, GC_00001529	1	1	12	12
+phosphoribosylaminoimidazole-succinocarboxamide synthase [EC:6.3.2.6]	0	1	1	NA	K01923	GC_00001352	1	1	12	12
+ATP-dependent RNA helicase HelY [EC:3.6.4.-]	0	1	1	NA	K03727	GC_00001087	1	1	12	12
+phosphoribosylamine---glycine ligase [EC:6.3.4.13]	0	1	1	NA	K01945	GC_00001375	1	1	12	12
+preprotein translocase subunit SecG	0	1	1	NA	K03075	GC_00001053	1	1	12	12
+arginyl-tRNA synthetase [EC:6.1.1.19]	0	1	1	NA	K01887	GC_00000921	1	1	12	12
+lysozyme	0	1	1	NA	K07273	GC_00000529	1	1	12	12
+Lon-like protease	0	1	1	NA	K07177	GC_00001695	1	1	12	12
+phosphoglucosamine mutase [EC:5.4.2.10]	0	1	1	NA	K03431	GC_00001424	1	1	12	12
+pyridoxine kinase [EC:2.7.1.35]	0	1	1	NA	K00868	GC_00000864	1	1	12	12
+thioredoxin-dependent peroxiredoxin [EC:1.11.1.24]	0	1	1	NA	K03564	GC_00001146	1	1	12	12
+large subunit ribosomal protein L21	0	1	1	NA	K02888	GC_00001229	1	1	12	12
+heme exporter protein A [EC:7.6.2.5]	0	1	1	NA	K02193	GC_00001278	1	1	12	12
+ADP-ribose pyrophosphatase [EC:3.6.1.13 3.6.1.-]	0	1	1	NA	K01515	GC_00000085	1	1	12	12
+glutaredoxin-like protein NrdH	0	1	1	NA	K06191	GC_00000893	1	1	12	12
+8-oxo-dGTP diphosphatase [EC:3.6.1.55]	0	1	1	NA	K03574	GC_00000176, GC_00001632, GC_00001704	1	1	12	12
+small subunit ribosomal protein S20	0	1	1	NA	K02968	GC_00000465	1	1	12	12
+RpiR family transcriptional regulator, carbohydrate utilization regulator	0	1	1	NA	K19337	GC_00000928	1	1	12	12
+phosphomannomutase [EC:5.4.2.8]	0	1	1	NA	K17497	GC_00000940	1	1	12	12
+dGTPase [EC:3.1.5.1]	0	1	1	NA	K01129	GC_00000986	1	1	12	12
+MFS transporter, OHS family, lactose permease	0	1	1	NA	K02532	GC_00000745	1	1	12	12
+translation initiation factor IF-1	0	1	1	NA	K02518	GC_00001001	1	1	12	12
+tRNA threonylcarbamoyladenosine biosynthesis protein TsaE	0	1	1	NA	K06925	GC_00001311	1	1	12	12
+D-ribose pyranase [EC:5.4.99.62]	0	1	1	NA	K06726	GC_00001621	1	1	12	12
+PLP dependent protein	0	1	1	NA	K06997	GC_00000353	1	1	12	12
+UDP-N-acetylmuramate--alanine ligase [EC:6.3.2.8]	0	1	1	NA	K01924	GC_00000680	1	1	12	12
+large subunit ribosomal protein L2	0	1	1	NA	K02886	GC_00001652	1	1	12	12
+dihydrofolate reductase [EC:1.5.1.3]	0	1	1	NA	K00287	GC_00001766	1	1	12	12
+small subunit ribosomal protein S11	0	1	1	NA	K02948	GC_00000818	1	1	12	12
+DUF177 domain-containing protein	0	1	1	NA	K07040	GC_00000808	1	1	12	12
+release factor glutamine methyltransferase [EC:2.1.1.297]	0	1	1	NA	K02493	GC_00000393	1	1	12	12
+O-acetylhomoserine (thiol)-lyase [EC:2.5.1.49]	0	1	1	NA	K01740	GC_00000483	1	1	12	12
+CarD family transcriptional regulator, regulator of rRNA transcription	0	1	1	NA	K07736	GC_00000738	1	1	12	12
+high-affinity iron transporter	0	1	1	NA	K07243	GC_00000620	1	1	12	12
+two-component system, OmpR family, response regulator RegX3	0	1	1	NA	K07776	GC_00000112	1	1	12	12
+2-dehydro-3-deoxy-D-pentonate aldolase [EC:4.1.2.28]	0	1	1	NA	K22397	GC_00000094, GC_00000095	1	1	12	12
+aspartyl-tRNA(Asn)/glutamyl-tRNA(Gln) amidotransferase subunit B [EC:6.3.5.6 6.3.5.7]	0	1	1	NA	K02434	GC_00001783	1	1	12	12
+raffinose/stachyose/melibiose transport system permease protein	0	1	1	NA	K10119	GC_00000351, GC_00001800	1	1	12	12
+phosphate transport system ATP-binding protein [EC:7.3.2.1]	0	1	1	NA	K02036	GC_00001272	1	1	12	12
+large subunit ribosomal protein L13	0	1	1	NA	K02871	GC_00001574	1	1	12	12
+alpha-mannosidase [EC:3.2.1.24]	0	1	1	NA	K01191	GC_00000001	1	1	12	12
+signal peptidase II [EC:3.4.23.36]	0	1	1	NA	K03101	GC_00000831	1	1	12	12
+primosomal protein N' (replication factor Y) (superfamily II helicase) [EC:5.6.2.4]	0	1	1	NA	K04066	GC_00001817	1	1	12	12
+Ca-activated chloride channel homolog	0	1	1	NA	K07114	GC_00001681	1	1	12	12
+16S rRNA processing protein RimM	0	1	1	NA	K02860	GC_00001237	1	1	12	12
+undecaprenyl-diphosphatase [EC:3.6.1.27]	0	1	1	NA	K06153	GC_00001580	1	1	12	12
+DNA polymerase I [EC:2.7.7.7]	0	1	1	NA	K02335	GC_00001540	1	1	12	12
+low molecular weight protein-tyrosine phosphatase [EC:3.1.3.48]	0	1	1	NA	K25307	GC_00000044, GC_00001316	1	1	12	12
+excinuclease ABC subunit B	0	1	1	NA	K03702	GC_00000788	1	1	12	12
+tRNA(adenine34) deaminase [EC:3.5.4.33]	0	1	1	NA	K11991	GC_00001445	1	1	12	12
+D-methionine transport system substrate-binding protein	0	1	1	NA	K02073	GC_00000515	1	1	12	12
+1,2-diacylglycerol 3-beta-glucosyltransferase [EC:2.4.1.336]	0	1	1	NA	K19003	GC_00001699	1	1	12	12
+SsrA-binding protein	0	1	1	NA	K03664	GC_00001135	1	1	12	12
+threonine aldolase [EC:4.1.2.48]	0	1	1	NA	K01620	GC_00000092	1	1	12	12
+large subunit ribosomal protein L15	0	1	1	NA	K02876	GC_00000737	1	1	12	12
+choline-sulfatase [EC:3.1.6.6]	0	1	1	NA	K01133	GC_00000951	1	1	12	12
+5-oxopent-3-ene-1,2,5-tricarboxylate decarboxylase / 2-hydroxyhepta-2,4-diene-1,7-dioate isomerase [EC:4.1.1.68 5.3.3.-]	0	1	1	NA	K05921	GC_00001558	1	1	12	12
+L-lactate dehydrogenase [EC:1.1.1.27]	0	1	1	NA	K00016	GC_00001180, GC_00001307	1	1	12	12
+chorismate mutase [EC:5.4.99.5]	0	1	1	NA	K04092	GC_00000962	1	1	12	12
+ascorbate PTS system EIIA or EIIAB component [EC:2.7.1.194]	0	1	1	NA	K02821	GC_00000950	1	1	12	12
+pyridoxal 5'-phosphate synthase pdxS subunit [EC:4.3.3.6]	0	1	1	NA	K06215	GC_00000414	1	1	12	12
+homoserine dehydrogenase [EC:1.1.1.3]	0	1	1	NA	K00003	GC_00001510	1	1	12	12
+small subunit ribosomal protein S16	0	1	1	NA	K02959	GC_00001297	1	1	12	12
+dihydrodiol dehydrogenase / D-xylose 1-dehydrogenase (NADP) [EC:1.3.1.20 1.1.1.179]	0	1	1	NA	K00078	GC_00000396	1	1	12	12
+ATP-dependent helicase Lhr and Lhr-like helicase [EC:3.6.4.13 5.6.2.4]	0	1	1	NA	K03724	GC_00000064	1	1	12	12
+ubiquinone biosynthesis protein	0	1	1	NA	K03688	GC_00000493	1	1	12	12
+ribosome-binding factor A	0	1	1	NA	K02834	GC_00000776	1	1	12	12
+transketolase [EC:2.2.1.1]	0	1	1	NA	K00615	GC_00001205	1	1	12	12
+NitT/TauT family transport system ATP-binding protein	0	1	1	NA	K02049	GC_00001481	1	1	12	12
+evolved beta-galactosidase subunit alpha [EC:3.2.1.23]	0	1	1	NA	K12111	GC_00001533	1	1	12	12
+aspartate-semialdehyde dehydrogenase [EC:1.2.1.11]	0	1	1	NA	K00133	GC_00001609	1	1	12	12
+eukaryotic-like serine/threonine-protein kinase [EC:2.7.11.1]	0	1	1	NA	K12132	GC_00000537, GC_00000941, GC_00001093, GC_00001363, GC_00001577	1	1	12	12
+large subunit ribosomal protein L36	0	1	1	NA	K02919	GC_00001024	1	1	12	12
+nucleobase:cation symporter-2, NCS2 family	0	1	1	NA	K03458	GC_00001809	1	1	12	12
+zinc/manganese transport system substrate-binding protein	0	1	1	NA	K02077	GC_00000131, GC_00000621	1	1	12	12
+putative spermidine/putrescine transport system substrate-binding protein	0	1	1	NA	K02055	GC_00000194	1	1	12	12
+glycerol-1-phosphatase [EC:3.1.3.21]	0	1	1	NA	K06117	GC_00000435	1	1	12	12
+cyclomaltodextrinase / maltogenic alpha-amylase / neopullulanase [EC:3.2.1.54 3.2.1.133 3.2.1.135]	0	1	1	NA	K01208	GC_00000747	1	1	12	12
+transcriptional regulator MraZ	0	1	1	NA	K03925	GC_00001079	1	1	12	12
+branched-chain amino acid transport system ATP-binding protein	0	1	1	NA	K01996	GC_00000291, GC_00001538	1	1	12	12
+16S rRNA (guanine1207-N2)-methyltransferase [EC:2.1.1.172]	0	1	1	NA	K00564	GC_00001338	1	1	12	12
+aspartyl-tRNA(Asn)/glutamyl-tRNA(Gln) amidotransferase subunit C [EC:6.3.5.6 6.3.5.7]	0	1	1	NA	K02435	GC_00001797	1	1	12	12
+23S rRNA (adenine2503-C2)-methyltransferase [EC:2.1.1.192]	0	1	1	NA	K06941	GC_00001593	1	1	12	12
+cysteinylglycine-S-conjugate dipeptidase [EC:3.4.13.23]	0	1	1	NA	K23980	GC_00000594	1	1	12	12
+5-formyltetrahydrofolate cyclo-ligase [EC:6.3.3.2]	0	1	1	NA	K01934	GC_00000851	1	1	12	12
+large subunit ribosomal protein L4	0	1	1	NA	K02926	GC_00000116	1	1	12	12
+phenylalanyl-tRNA synthetase alpha chain [EC:6.1.1.20]	0	1	1	NA	K01889	GC_00000702	1	1	12	12
+glycyl-tRNA synthetase [EC:6.1.1.14]	0	1	1	NA	K01880	GC_00001349	1	1	12	12
+UDP-galactopyranose mutase [EC:5.4.99.9]	0	1	1	NA	K01854	GC_00001756, GC_00001805	1	1	12	12
+energy-coupling factor transport system permease protein	0	1	1	NA	K16925	GC_00000466, GC_00001340, GC_00001752, GC_00001775, GC_00001821	1	1	12	12
+putative chitobiose transport system permease protein	0	1	1	NA	K17245	GC_00000078, GC_00001448	1	1	12	12
+putative ATP-dependent endonuclease of the OLD family	0	1	1	NA	K07459	GC_00001559	1	1	12	12
+dihydroneopterin aldolase / 2-amino-4-hydroxy-6-hydroxymethyldihydropteridine diphosphokinase [EC:4.1.2.25 2.7.6.3]	0	1	1	NA	K13940	GC_00001274	1	1	12	12
+KUP system potassium uptake protein	0	1	1	NA	K03549	GC_00000135	1	1	12	12
+toxin YoeB [EC:3.1.-.-]	0	1	1	NA	K19158	GC_00001201	1	1	12	12
+isocitrate dehydrogenase [EC:1.1.1.42]	0	1	1	NA	K00031	GC_00001511	1	1	12	12
+tRNA pseudouridine55 synthase [EC:5.4.99.25]	0	1	1	NA	K03177	GC_00001716	1	1	12	12
+tRNA pseudouridine32 synthase / 23S rRNA pseudouridine746 synthase [EC:5.4.99.28 5.4.99.29]	0	1	1	NA	K06177	GC_00000344	1	1	12	12
+aldehyde dehydrogenase (NAD+) [EC:1.2.1.3]	0	1	1	NA	K00128	GC_00000521	1	1	12	12
+preprotein translocase subunit YajC	0	1	1	NA	K03210	GC_00000287	1	1	12	12
+arabinogalactan endo-1,4-beta-galactosidase [EC:3.2.1.89]	0	1	1	NA	K01224	GC_00000034	1	1	12	12
+succinate dehydrogenase iron-sulfur subunit [EC:1.3.5.1]	0	1	1	NA	K00240	GC_00000326	1	1	12	12
+DeoR family transcriptional regulator, fructose operon transcriptional repressor	0	1	1	NA	K03436	GC_00001844	1	1	12	12
+FMN reductase (NADPH) [EC:1.5.1.38]	0	1	1	NA	K19285	GC_00000405	1	1	12	12
+6 kDa early secretory antigenic target	0	1	1	NA	K14956	GC_00001546	1	1	12	12
+CRISPR-associated protein Csd1	0	1	1	NA	K19117	GC_00001149	1	1	12	12
+glutamine---fructose-6-phosphate transaminase (isomerizing) [EC:2.6.1.16]	0	1	1	NA	K00820	GC_00000208	1	1	12	12
+putative transposase	0	1	1	NA	K07492	GC_00000012, GC_00000039, GC_00000477, GC_00000762, GC_00001134, GC_00001387, GC_00001850, GC_00002708, GC_00003233	1	1	12	12
+3-deoxy-7-phosphoheptulonate synthase [EC:2.5.1.54]	0	1	1	NA	K01626	GC_00000160, GC_00000161	1	1	12	12
+glucosylceramidase [EC:3.2.1.45]	0	1	1	NA	K01201	GC_00001589	1	1	12	12
+peptidyl-tRNA hydrolase, PTH1 family [EC:3.1.1.29]	0	1	1	NA	K01056	GC_00001215	1	1	12	12
+N-acetylglucosamine PTS system EIIB component [EC:2.7.1.193]	0	1	1	NA	K02803	GC_00001801	1	1	12	12
+ribosome-associated protein	0	1	1	NA	K09710	GC_00001705	1	1	12	12
+drug/metabolite transporter, DME family	0	1	1	NA	K03298	GC_00000332, GC_00000593	1	1	12	12
+cell division inhibitor SepF	0	1	1	NA	K09772	GC_00000417	1	1	12	12
+magnesium chelatase family protein	0	1	1	NA	K07391	GC_00001216	1	1	12	12
+chaperonin GroEL [EC:5.6.1.7]	0	1	1	NA	K04077	GC_00000075	1	1	12	12
+DNA primase [EC:2.7.7.101]	0	1	1	NA	K02316	GC_00001808	1	1	12	12
+succinyl-CoA synthetase alpha subunit [EC:6.2.1.5]	0	1	1	NA	K01902	GC_00001184	1	1	12	12
+phenylalanyl-tRNA synthetase beta chain [EC:6.1.1.20]	0	1	1	NA	K01890	GC_00000452	1	1	12	12
+GTPase [EC:3.6.5.-]	0	1	1	NA	K03979	GC_00000859	1	1	12	12
+chromosome segregation protein	0	1	1	NA	K03529	GC_00000157	1	1	12	12
+amino acid transporter, AAT family	0	1	1	NA	K03293	GC_00000656, GC_00000853	1	1	12	12
+adenylosuccinate lyase [EC:4.3.2.2]	0	1	1	NA	K01756	GC_00001711	1	1	12	12
+MFS transporter, putative metabolite:H+ symporter	0	1	1	NA	K08369	GC_00001212	1	1	12	12
+sulfur carrier protein	0	1	1	NA	K03154	GC_00001344	1	1	12	12
+ATP-binding protein involved in chromosome partitioning	0	1	1	NA	K03593	GC_00001197	1	1	12	12
+MFS transporter, DHA3 family, macrolide efflux protein	0	1	1	NA	K08217	GC_00000196, GC_00000497, GC_00000498	1	1	12	12
+MFS transporter, UMF1 family	0	1	1	NA	K06902	GC_00000743	1	1	12	12
+anthranilate synthase component I [EC:4.1.3.27]	0	1	1	NA	K01657	GC_00001074	1	1	12	12
+exodeoxyribonuclease VII small subunit [EC:3.1.11.6]	0	1	1	NA	K03602	GC_00001415	1	1	12	12
+UDP-glucose 4-epimerase [EC:5.1.3.2]	0	1	1	NA	K01784	GC_00001418	1	1	12	12
+ATP-dependent Clp protease ATP-binding subunit ClpC	0	1	1	NA	K03696	GC_00000252	1	1	12	12
+large subunit ribosomal protein L33	0	1	1	NA	K02913	GC_00001690	1	1	12	12
+iron(III) transport system ATP-binding protein [EC:7.2.2.7]	0	1	1	NA	K02010	GC_00001847	1	1	12	12
+penicillin-binding protein 1A [EC:2.4.1.129 3.4.16.4]	0	1	1	NA	K05366	GC_00000325	1	1	12	12
+LacI family transcriptional regulator, sucrose operon repressor	0	1	1	NA	K03484	GC_00000172, GC_00000173	1	1	12	12
+1,2-diacylglycerol 3-alpha-glucosyltransferase [EC:2.4.1.337]	0	1	1	NA	K19002	GC_00000871	1	1	12	12
+branched-chain amino acid:cation transporter, LIVCS family	0	1	1	NA	K03311	GC_00001710	1	1	12	12
+magnesium transporter	0	1	1	NA	K03284	GC_00000504	1	1	12	12
+ADP-dependent NAD(P)H-hydrate dehydratase / NAD(P)H-hydrate epimerase [EC:4.2.1.136 5.1.99.6]	0	1	1	NA	K23997	GC_00001298	1	1	12	12
+undecaprenyl diphosphate synthase [EC:2.5.1.31]	0	1	1	NA	K00806	GC_00000105	1	1	12	12
+ribosome-binding ATPase	0	1	1	NA	K06942	GC_00000098	1	1	12	12
+integrase/recombinase XerC	0	1	1	NA	K03733	GC_00000628	1	1	12	12
+manganese efflux pump family protein	0	1	1	NA	K23242	GC_00000541	1	1	12	12
+MFS transporter, DHA2 family, lincomycin resistance protein	0	1	1	NA	K18926	GC_00000035, GC_00001441, GC_00001656	1	1	12	12
+glycosyltransferase 2 family protein	0	1	1	NA	K07027	GC_00000826	1	1	12	12
+large subunit ribosomal protein L6	0	1	1	NA	K02933	GC_00000713	1	1	12	12
+MerR family transcriptional regulator, aldehyde-responsive regulator	0	1	1	NA	K21745	GC_00001086, GC_00001127	1	1	12	12
+xanthine phosphoribosyltransferase [EC:2.4.2.22]	0	1	1	NA	K03816	GC_00000399	1	1	12	12
+galactokinase [EC:2.7.1.6]	0	1	1	NA	K00849	GC_00001388	1	1	12	12
+tRNA(Ile)-lysidine synthase [EC:6.3.4.19]	0	1	1	NA	K04075	GC_00001461	1	1	12	12
+large subunit ribosomal protein L10	0	1	1	NA	K02864	GC_00000153	1	1	12	12
+acetylornithine/N-succinyldiaminopimelate aminotransferase [EC:2.6.1.11 2.6.1.17]	0	1	1	NA	K00821	GC_00000207	1	1	12	12
+2,3-bisphosphoglycerate-dependent phosphoglycerate mutase [EC:5.4.2.11]	0	1	1	NA	K01834	GC_00001898	1	1	12	12
+endonuclease [EC:3.1.-.-]	0	1	1	NA	K07503	GC_00001226	1	1	12	12
+maltose transport system substrate-binding protein	0	1	1	NA	K25086	GC_00000015, GC_00000218, GC_00000395, GC_00000911, GC_00001799	1	1	12	12
+ATP-dependent DNA helicase RecQ [EC:5.6.2.4]	0	1	1	NA	K03654	GC_00001836	1	1	12	12
+pyridoxine 4-dehydrogenase [EC:1.1.1.65]	0	1	1	NA	K05275	GC_00001160, GC_00001599	1	1	12	12
+succinate dehydrogenase flavoprotein subunit [EC:1.3.5.1]	0	1	1	NA	K00239	GC_00000588	1	1	12	12
+D-methionine transport system permease protein	0	1	1	NA	K02072	GC_00000615	1	1	12	12
+small subunit ribosomal protein S5	0	1	1	NA	K02988	GC_00000977	1	1	12	12
+multidrug resistance protein, MATE family	0	1	1	NA	K03327	GC_00001326, GC_00001368, GC_00001787	1	1	12	12
+peptide/nickel transport system ATP-binding protein	0	1	1	NA	K02031	GC_00000840, GC_00001597	1	1	12	12
+phosphoribosyl isomerase A [EC:5.3.1.16 5.3.1.24]	0	1	1	NA	K24017	GC_00000592	1	1	12	12
+exodeoxyribonuclease VII large subunit [EC:3.1.11.6]	0	1	1	NA	K03601	GC_00000898	1	1	12	12
+glutamine synthetase [EC:6.3.1.2]	0	1	1	NA	K01915	GC_00001353, GC_00001588	1	1	12	12
+tRNA (adenine57-N1/adenine58-N1)-methyltransferase catalytic subunit [EC:2.1.1.219 2.1.1.220]	0	1	1	NA	K07442	GC_00001520	1	1	12	12
+23S rRNA pseudouridine2605 synthase [EC:5.4.99.22]	0	1	1	NA	K06178	GC_00001218	1	1	12	12
+putative glutamine amidotransferase	0	1	1	NA	K07010	GC_00000261	1	1	12	12
+sugar PTS system EIIA component [EC:2.7.1.-]	0	1	1	NA	K02777	GC_00000545, GC_00000546	1	1	12	12
+aspartyl-tRNA synthetase [EC:6.1.1.12]	0	1	1	NA	K01876	GC_00001389	1	1	12	12
+MFS transporter, DHA2 family, multidrug resistance protein	0	1	1	NA	K08167	GC_00000024	1	1	12	12
+DNA polymerase III subunit alpha [EC:2.7.7.7]	0	1	1	NA	K02337	GC_00000070	1	1	12	12
+protease I [EC:3.5.1.124]	0	1	1	NA	K05520	GC_00000253	1	1	12	12
+MerR family transcriptional regulator, heat shock protein HspR	0	1	1	NA	K13640	GC_00000971	1	1	12	12
+MoxR-like ATPase [EC:3.6.3.-]	0	1	1	NA	K03924	GC_00000019, GC_00000052	1	1	12	12
+phosphate acetyltransferase [EC:2.3.1.8]	0	1	1	NA	K13788	GC_00001013	1	1	12	12
+ornithine carbamoyltransferase [EC:2.1.3.3]	0	1	1	NA	K00611	GC_00000758	1	1	12	12
+exodeoxyribonuclease III [EC:3.1.11.2]	0	1	1	NA	K01142	GC_00000303	1	1	12	12
+serine O-acetyltransferase [EC:2.3.1.30]	0	1	1	NA	K00640	GC_00001165	1	1	12	12
+lipoate---protein ligase [EC:6.3.1.20]	0	1	1	NA	K03800	GC_00001823	1	1	12	12
+glutathione transport system permease protein	0	1	1	NA	K13891	GC_00001607	1	1	12	12
+DNA transformation protein and related proteins	0	1	1	NA	K07343	GC_00000693	1	1	12	12
+ribonuclease PH [EC:2.7.7.56]	0	1	1	NA	K00989	GC_00000862	1	1	12	12
+quinolinate synthase [EC:2.5.1.72]	0	1	1	NA	K03517	GC_00001168	1	1	12	12
+L-glutamine---4-(methylsulfanyl)-2-oxobutanoate aminotransferase [EC:2.6.1.117]	0	1	1	NA	K08969	GC_00000874	1	1	12	12
+homoserine kinase [EC:2.7.1.39]	0	1	1	NA	K00872	GC_00000174	1	1	12	12
+prephenate dehydrogenase [EC:1.3.1.12]	0	1	1	NA	K04517	GC_00001111	1	1	12	12
+LacI family transcriptional regulator	0	1	1	NA	K02529	GC_00000040, GC_00000213, GC_00000251, GC_00000262, GC_00000608, GC_00000699, GC_00000714, GC_00000715, GC_00000730, GC_00000869, GC_00001407, GC_00001428, GC_00001439, GC_00001473, GC_00001506, GC_00001605, GC_00001623, GC_00001712, GC_00001920, GC_00001924, GC_00001943	1	1	12	12
+glucose-6-phosphate 1-dehydrogenase [EC:1.1.1.49 1.1.1.363]	0	1	1	NA	K00036	GC_00000770	1	1	12	12
+alanyl-tRNA synthetase [EC:6.1.1.7]	0	1	1	NA	K01872	GC_00000740	1	1	12	12
+membrane-associated protein	0	1	1	NA	K03975	GC_00000810, GC_00001035	1	1	12	12
+DNA polymerase III subunit delta' [EC:2.7.7.7]	0	1	1	NA	K02341	GC_00001874	1	1	12	12
+excinuclease ABC subunit A	0	1	1	NA	K03701	GC_00000111, GC_00000643, GC_00000836	1	1	12	12
+ribulose-phosphate 3-epimerase [EC:5.1.3.1]	0	1	1	NA	K01783	GC_00001346	1	1	12	12
+ribose transport system permease protein	0	1	1	NA	K10440	GC_00000782	1	1	12	12
+valyl-tRNA synthetase [EC:6.1.1.9]	0	1	1	NA	K01873	GC_00001544	1	1	12	12
+poly(A) polymerase [EC:2.7.7.19]	0	1	1	NA	K00970	GC_00000427	1	1	12	12
+tryptophan synthase alpha chain [EC:4.2.1.20]	0	1	1	NA	K01695	GC_00001281	1	1	12	12
+energy-coupling factor transport system permease/ATP-binding protein [EC:7.-.-.-]	0	1	1	NA	K24040	GC_00001678	1	1	12	12
+peptidyl-prolyl cis-trans isomerase B (cyclophilin B) [EC:5.2.1.8]	0	1	1	NA	K03768	GC_00001888	1	1	12	12
+mannosyl-glycoprotein endo-beta-N-acetylglucosaminidase [EC:3.2.1.96]	0	1	1	NA	K01227	GC_00001103	1	1	12	12
+lactose/raffinose/galactose permease	0	1	1	NA	K16209	GC_00000691	1	1	12	12
+multiple sugar transport system substrate-binding protein	0	1	1	NA	K02027	GC_00000454, GC_00000455, GC_00000458, GC_00000581, GC_00001284, GC_00001381, GC_00001688, GC_00001724, GC_00001758	1	1	12	12
+ATP-dependent DNA helicase PIF1 [EC:5.6.2.3]	0	1	1	NA	K15255	GC_00000429	1	1	12	12
+DNA mismatch endonuclease, patch repair protein [EC:3.1.-.-]	0	1	1	NA	K07458	GC_00001545	1	1	12	12
+cobalt-zinc-cadmium efflux system protein	0	1	1	NA	K16264	GC_00000576	1	1	12	12
+spoIIIJ-associated protein	0	1	1	NA	K06346	GC_00001422	1	1	12	12
+alpha-galactosidase [EC:3.2.1.22]	0	1	1	NA	K07407	GC_00000243, GC_00001778	1	1	12	12
+molecular chaperone DnaK	0	1	1	NA	K04043	GC_00001471	1	1	12	12
+Rrf2 family transcriptional regulator, repressor of oqxAB	0	1	1	NA	K19587	GC_00001576	1	1	12	12
+phosphoenolpyruvate carboxylase [EC:4.1.1.31]	0	1	1	NA	K01595	GC_00000241	1	1	12	12
+chaperonin GroES	0	1	1	NA	K04078	GC_00001214	1	1	12	12
+magnesium and cobalt exporter, CNNM family	0	1	1	NA	K03699	GC_00000077, GC_00000195	1	1	12	12
+isoleucyl-tRNA synthetase [EC:6.1.1.5]	0	1	1	NA	K01870	GC_00001072	1	1	12	12
+glucokinase [EC:2.7.1.2]	0	1	1	NA	K25026	GC_00000021, GC_00000496, GC_00000909, GC_00001119, GC_00001120	1	1	12	12
+cell division protein FtsI (penicillin-binding protein 3) [EC:3.4.16.4]	0	1	1	NA	K03587	GC_00000273	1	1	12	12
+D-aminoacyl-tRNA deacylase [EC:3.1.1.96]	0	1	1	NA	K07560	GC_00000785	1	1	12	12
+chromosomal replication initiator protein	0	1	1	NA	K02313	GC_00000403	1	1	12	12
+F-type H+/Na+-transporting ATPase subunit alpha [EC:7.1.2.2 7.2.2.1]	0	1	1	NA	K02111	GC_00001500	1	1	12	12
+cysteine desulfurase / selenocysteine lyase [EC:2.8.1.7 4.4.1.16]	0	1	1	NA	K11717	GC_00001581	1	1	12	12
+3-isopropylmalate/(R)-2-methylmalate dehydratase large subunit [EC:4.2.1.33 4.2.1.35]	0	1	1	NA	K01703	GC_00001662	1	1	12	12
+[glutamine synthetase] adenylyltransferase / [glutamine synthetase]-adenylyl-L-tyrosine phosphorylase [EC:2.7.7.42 2.7.7.89]	0	1	1	NA	K00982	GC_00001891	1	1	12	12
+6-phosphogluconate dehydrogenase [EC:1.1.1.44 1.1.1.343]	0	1	1	NA	K00033	GC_00001359	1	1	12	12
+L-cystine transport system substrate-binding protein	0	1	1	NA	K16957	GC_00000796	1	1	12	12
+integrase	0	1	1	NA	K14059	GC_00000975, GC_00001776	1	1	12	12
+PucR family transcriptional regulator, purine catabolism regulatory protein	0	1	1	NA	K09684	GC_00001287	1	1	12	12
+large subunit ribosomal protein L27	0	1	1	NA	K02899	GC_00000719	1	1	12	12
+large subunit ribosomal protein L17	0	1	1	NA	K02879	GC_00000184	1	1	12	12
+DNA-directed RNA polymerase subunit beta' [EC:2.7.7.6]	0	1	1	NA	K03046	GC_00001491	1	1	12	12
+GTPase	0	1	1	NA	K03977	GC_00000492, GC_00000609, GC_00001191	1	1	12	12
+3-isopropylmalate dehydrogenase [EC:1.1.1.85]	0	1	1	NA	K00052	GC_00000919	1	1	12	12
+F-type H+-transporting ATPase subunit delta	0	1	1	NA	K02113	GC_00001608	1	1	12	12
+LemA protein	0	1	1	NA	K03744	GC_00001142	1	1	12	12
+GTP cyclohydrolase I [EC:3.5.4.16]	0	1	1	NA	K22391	GC_00001220	1	1	12	12
+regulatory protein	0	1	1	NA	K03565	GC_00000580	1	1	12	12
+galactoside O-acetyltransferase [EC:2.3.1.18]	0	1	1	NA	K00633	GC_00000363	1	1	12	12
+inorganic pyrophosphatase [EC:3.6.1.1]	0	1	1	NA	K01507	GC_00000125	1	1	12	12
+large subunit ribosomal protein L22	0	1	1	NA	K02890	GC_00000472	1	1	12	12
+dihydrofolate synthase / folylpolyglutamate synthase [EC:6.3.2.12 6.3.2.17]	0	1	1	NA	K11754	GC_00001686	1	1	12	12
+oligoribonuclease [EC:3.1.-.-]	0	1	1	NA	K13288	GC_00001442	1	1	12	12
+anaerobic ribonucleoside-triphosphate reductase activating protein [EC:1.97.1.4]	0	1	1	NA	K04068	GC_00000754	1	1	12	12
+transcriptional regulator	0	1	1	NA	K07743	GC_00002033	0.5833	0.5833	12	12
+seryl-tRNA synthetase [EC:6.1.1.11]	0	1	1	NA	K01875	GC_00001845	1	1	12	12
+fluoride exporter	0	1	1	NA	K06199	GC_00000147, GC_00000705, GC_00001003, GC_00001549	1	1	12	12
+transposase, IS30 family	0	1	1	NA	K07482	GC_00000006, GC_00000010, GC_00000514, GC_00000630, GC_00000631, GC_00000828, GC_00000829, GC_00002037, GC_00002110, GC_00002190	1	1	12	12
+molecular chaperone DnaJ	0	1	1	NA	K03686	GC_00000456	1	1	12	12
+imidazole glycerol-phosphate synthase subunit HisF [EC:4.3.2.10]	0	1	1	NA	K02500	GC_00000136	1	1	12	12
+small subunit ribosomal protein S14	0	1	1	NA	K02954	GC_00000123	1	1	12	12
+large subunit ribosomal protein L29	0	1	1	NA	K02904	GC_00000115	1	1	12	12
+spore coat protein SA	0	1	1	NA	K06338	GC_00000877	1	1	12	12
+diamine N-acetyltransferase [EC:2.3.1.57]	0	1	1	NA	K22441	GC_00001156, GC_00001668	1	1	12	12
+elongation factor G	0	1	1	NA	K02355	GC_00000704	1	1	12	12
+uncharacterized protein	0	1	1	NA	K09955	GC_00000158, GC_00000167, GC_00000171, GC_00000282, GC_00000415, GC_00000440, GC_00000448, GC_00000459, GC_00000482, GC_00000548, GC_00000584, GC_00000595, GC_00000766, GC_00000811, GC_00000889, GC_00000985, GC_00001067, GC_00001068, GC_00001112, GC_00001113, GC_00001114, GC_00001131, GC_00001166, GC_00001221, GC_00001258, GC_00001466, GC_00001480, GC_00001598, GC_00001624, GC_00001730, GC_00001802, GC_00001807, GC_00001824, GC_00001840, GC_00001873	1	1	12	12
+nicotinate-nucleotide adenylyltransferase [EC:2.7.7.18]	0	1	1	NA	K00969	GC_00000744	1	1	12	12
+DNA repair protein RecO (recombination protein O)	0	1	1	NA	K03584	GC_00001055	1	1	12	12
+methylenetetrahydrofolate reductase (NADH) [EC:1.5.1.54]	0	1	1	NA	K00297	GC_00000163	1	1	12	12
+carbamoyl-phosphate synthase large subunit [EC:6.3.5.5]	0	1	1	NA	K01955	GC_00000410	1	1	12	12
+small subunit ribosomal protein S17	0	1	1	NA	K02961	GC_00001731	1	1	12	12
+cell division protein FtsW	0	1	1	NA	K03588	GC_00001048, GC_00001490	1	1	12	12
+anthranilate synthase component II [EC:4.1.3.27]	0	1	1	NA	K01658	GC_00001463	1	1	12	12
+S-ribosylhomocysteine lyase [EC:4.4.1.21]	0	1	1	NA	K07173	GC_00000848	1	1	12	12
+preprotein translocase subunit SecE	0	1	1	NA	K03073	GC_00001020	1	1	12	12
+16S rRNA (cytidine1402-2'-O)-methyltransferase [EC:2.1.1.198]	0	1	1	NA	K07056	GC_00000054	1	1	12	12
+zinc-binding alcohol dehydrogenase/oxidoreductase	0	1	1	NA	K13955	GC_00001723	1	1	12	12
+ketol-acid reductoisomerase [EC:1.1.1.86]	0	1	1	NA	K00053	GC_00000081, GC_00000082	1	1	12	12
+diaminopimelate epimerase [EC:5.1.1.7]	0	1	1	NA	K01778	GC_00000997	1	1	12	12
+beta-lactamase class A [EC:3.5.2.6]	0	1	1	NA	K17836	GC_00001889	1	1	12	12
+ribokinase [EC:2.7.1.15]	0	1	1	NA	K00852	GC_00000384, GC_00001371, GC_00001372, GC_00001541	1	1	12	12
+ATP-binding cassette, subfamily B, multidrug efflux pump	0	1	1	NA	K18888	GC_00000892, GC_00001124, GC_00001403, GC_00001696, GC_00001793, GC_00001872	1	1	12	12
+maltose transport system permease protein	0	1	1	NA	K25088	GC_00000667, GC_00000668, GC_00000837, GC_00000838	1	1	12	12
+ACT domain-containing protein	0	1	1	NA	K07166	GC_00000175	1	1	12	12
+phosphomethylpyrimidine synthase [EC:4.1.99.17]	0	1	1	NA	K03147	GC_00001288	1	1	12	12
+RNA-binding protein	0	1	1	NA	K07574	GC_00000813	1	1	12	12
+pilus assembly protein CpaF [EC:7.4.2.8]	0	1	1	NA	K02283	GC_00001945	1	1	12	12
+ribose 5-phosphate isomerase A [EC:5.3.1.6]	0	1	1	NA	K01807	GC_00001447	1	1	12	12
+putative endonuclease	0	1	1	NA	K07460	GC_00000467	1	1	12	12
+UPF0755 protein	0	1	1	NA	K07082	GC_00001084	1	1	12	12
+4-hydroxy-tetrahydrodipicolinate reductase [EC:1.17.1.8]	0	1	1	NA	K00215	GC_00001313	1	1	12	12
+MFS transporter, SP family, sugar:H+ symporter	0	1	1	NA	K08139	GC_00000534	1	1	12	12
+NAD+ diphosphatase [EC:3.6.1.22]	0	1	1	NA	K03426	GC_00000150	1	1	12	12
+shikimate kinase / 3-dehydroquinate synthase [EC:2.7.1.71 4.2.3.4]	0	1	1	NA	K13829	GC_00000509	1	1	12	12
+glucan 1,3-beta-glucosidase [EC:3.2.1.58]	0	1	1	NA	K01210	GC_00001243	1	1	12	12
+aldose 1-epimerase [EC:5.1.3.3]	0	1	1	NA	K01785	GC_00000224, GC_00000225	1	1	12	12
+transcriptional repressor NrdR	0	1	1	NA	K07738	GC_00000899	1	1	12	12
+vancomycin resistance protein VanJ	0	1	1	NA	K18353	GC_00000736, GC_00001098	1	1	12	12
+N-acylglucosamine-6-phosphate 2-epimerase [EC:5.1.3.9]	0	1	1	NA	K01788	GC_00000783	1	1	12	12
+ParB family transcriptional regulator, chromosome partitioning protein	0	1	1	NA	K03497	GC_00000519, GC_00001106	1	1	12	12
+thiamine pyrophosphokinase [EC:2.7.6.2]	0	1	1	NA	K00949	GC_00000662	1	1	12	12
+polyisoprenyl-teichoic acid--peptidoglycan teichoic acid transferase [EC:2.7.8.-]	0	1	1	NA	K01005	GC_00000237, GC_00001833	1	1	12	12
+F-type H+-transporting ATPase subunit gamma	0	1	1	NA	K02115	GC_00001219	1	1	12	12
+F-type H+-transporting ATPase subunit a	0	1	1	NA	K02108	GC_00000645	1	1	12	12
+pilus assembly protein CpaB	0	1	1	NA	K02279	GC_00000468	1	1	12	12
+phospholipase/carboxylesterase	0	1	1	NA	K06999	GC_00000712, GC_00001170, GC_00001247	1	1	12	12
+dipeptidyl-peptidase 4 [EC:3.4.14.5]	0	1	1	NA	K01278	GC_00001179	1	1	12	12
+IMP dehydrogenase [EC:1.1.1.205]	0	1	1	NA	K00088	GC_00001271	1	1	12	12
+ATP-dependent RNA helicase RhlE [EC:3.6.4.13]	0	1	1	NA	K11927	GC_00000073	1	1	12	12
+DNA gyrase subunit B [EC:5.6.2.2]	0	1	1	NA	K02470	GC_00000470, GC_00001411	1	1	12	12
+zinc/manganese transport system permease protein	0	1	1	NA	K02075	GC_00000183	1	1	12	12
+curved DNA-binding protein	0	1	1	NA	K05516	GC_00000432	1	1	12	12
+fatty acid synthase, bacteria type [EC:2.3.1.-]	0	1	1	NA	K11533	GC_00001082	1	1	12	12
+prolyl-tRNA synthetase [EC:6.1.1.15]	0	1	1	NA	K01881	GC_00001383	1	1	12	12
+DNA ligase (NAD+) [EC:6.5.1.2]	0	1	1	NA	K01972	GC_00000056	1	1	12	12
+large subunit ribosomal protein L20	0	1	1	NA	K02887	GC_00000145	1	1	12	12
+glutamate synthase (NADPH) large chain [EC:1.4.1.13]	0	1	1	NA	K00265	GC_00000302	1	1	12	12
+type I restriction enzyme, R subunit [EC:3.1.21.3]	0	1	1	NA	K01153	GC_00000821	1	1	12	12
+monovalent cation/hydrogen antiporter	0	1	1	NA	K24163	GC_00001639	1	1	12	12
+thiazole synthase [EC:2.8.1.10]	0	1	1	NA	K03149	GC_00000408	1	1	12	12
+cysteine desulfurase [EC:2.8.1.7]	0	1	1	NA	K04487	GC_00000552	1	1	12	12
+dipeptidase [EC:3.4.-.-]	0	1	1	NA	K08659	GC_00000823, GC_00000824	1	1	12	12
+phosphatidylglycerophosphatase C [EC:3.1.3.27]	0	1	1	NA	K18697	GC_00001557	1	1	12	12
+CDP-diacylglycerol---glycerol-3-phosphate 3-phosphatidyltransferase [EC:2.7.8.5]	0	1	1	NA	K00995	GC_00001578	1	1	12	12
+chloride channel protein, CIC family	0	1	1	NA	K03281	GC_00001317	1	1	12	12
+energy-dependent translational throttle protein EttA	0	1	1	NA	K06020	GC_00000193	1	1	12	12
+imidazoleglycerol-phosphate dehydratase [EC:4.2.1.19]	0	1	1	NA	K01693	GC_00000873	1	1	12	12
+CRISPR-associated exonuclease Cas4 [EC:3.1.12.1]	0	1	1	NA	K07464	GC_00000205	1	1	12	12
+glycoside/pentoside/hexuronide:cation symporter, GPH family	0	1	1	NA	K03292	GC_00001579	1	1	12	12
+polyphosphate kinase [EC:2.7.4.1]	0	1	1	NA	K00937	GC_00001736	1	1	12	12
+2-iminobutanoate/2-iminopropanoate deaminase [EC:3.5.99.10]	0	1	1	NA	K09022	GC_00000625	1	1	12	12
+small subunit ribosomal protein S7	0	1	1	NA	K02992	GC_00000227	1	1	12	12
+methionyl aminopeptidase [EC:3.4.11.18]	0	1	1	NA	K01265	GC_00001069	1	1	12	12
+dihydroorotase [EC:3.5.2.3]	0	1	1	NA	K01465	GC_00000390	1	1	12	12
+thiosulfate sulfurtransferase [EC:2.8.1.1]	0	1	1	NA	K02439	GC_00001331	1	1	12	12
+phage shock protein C	0	1	1	NA	K03973	GC_00000804, GC_00001879	1	1	12	12
+Na+:H+ antiporter, NhaA family	0	1	1	NA	K03313	GC_00001732	1	1	12	12
+peptide-methionine (S)-S-oxide reductase [EC:1.8.4.11]	0	1	1	NA	K07304	GC_00000089	1	1	12	12
+L-fucose dehydrogenase	0	1	1	NA	K18333	GC_00000382, GC_00000383	1	1	12	12
+citrate synthase [EC:2.3.3.1]	0	1	1	NA	K01647	GC_00001773	1	1	12	12
+bifunctional UDP-N-acetylglucosamine pyrophosphorylase / glucosamine-1-phosphate N-acetyltransferase [EC:2.7.7.23 2.3.1.157]	0	1	1	NA	K04042	GC_00000086	1	1	12	12
+ATP-dependent Clp protease, protease subunit [EC:3.4.21.92]	0	1	1	NA	K01358	GC_00000132, GC_00000318	1	1	12	12
+cell filamentation protein, protein adenylyltransferase [EC:2.7.7.108]	0	1	1	NA	K04095	GC_00000289, GC_00000292, GC_00000460, GC_00000843, GC_00001469	1	1	12	12
+excinuclease ABC subunit C	0	1	1	NA	K03703	GC_00001749	1	1	12	12
+ribonucleoside-triphosphate reductase (formate) [EC:1.1.98.6]	0	1	1	NA	K21636	GC_00001596	1	1	12	12
+oligopeptide transport system substrate-binding protein	0	1	1	NA	K15580	GC_00000201, GC_00000202	1	1	12	12
+glycogen phosphorylase [EC:2.4.1.1]	0	1	1	NA	K00688	GC_00000007	1	1	12	12
+small subunit ribosomal protein S10	0	1	1	NA	K02946	GC_00001231	1	1	12	12
+manganese transport protein	0	1	1	NA	K03322	GC_00000045	1	1	12	12
+pyruvate kinase [EC:2.7.1.40]	0	1	1	NA	K00873	GC_00000102	1	1	12	12
+phosphoglycolate phosphatase [EC:3.1.3.18]	0	1	1	NA	K01091	GC_00000964, GC_00001630	1	1	12	12
+cation-transporting P-type ATPase E [EC:7.2.2.-]	0	1	1	NA	K12952	GC_00000067	1	1	12	12
+2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase [EC:2.7.7.60]	0	1	1	NA	K00991	GC_00000757	1	1	12	12
+alpha-glucosidase [EC:3.2.1.20]	0	1	1	NA	K01187	GC_00000188, GC_00000882, GC_00000883	1	1	12	12
+biotin transport system ATP-binding protein [EC:7.6.2.-]	0	1	1	NA	K16784	GC_00000117	1	1	12	12
+polar amino acid transport system permease protein	0	1	1	NA	K02029	GC_00000345, GC_00001409, GC_00001531	1	1	12	12
+16S rRNA (guanine966-N2)-methyltransferase [EC:2.1.1.171]	0	1	1	NA	K08316	GC_00000601	1	1	12	12
+BirA family transcriptional regulator, biotin operon repressor / biotin---[acetyl-CoA-carboxylase] ligase [EC:6.3.4.15]	0	1	1	NA	K03524	GC_00001825	1	1	12	12
+ascorbate PTS system EIIB component [EC:2.7.1.194]	0	1	1	NA	K02822	GC_00000348	1	1	12	12
+L-glyceraldehyde 3-phosphate reductase [EC:1.1.1.-]	0	1	1	NA	K19265	GC_00001675	1	1	12	12
+cell division transport system ATP-binding protein	0	1	1	NA	K09812	GC_00000931	1	1	12	12
+penicillin-binding protein A	0	1	1	NA	K05364	GC_00000587	1	1	12	12
+DNA polymerase V	0	1	1	NA	K03502	GC_00001328	1	1	12	12
+phosphoribosylformylglycinamidine synthase [EC:6.3.5.3]	0	1	1	NA	K01952	GC_00000063	1	1	12	12
+biotin transport system substrate-specific component	0	1	1	NA	K03523	GC_00000104	1	1	12	12
+alanine-synthesizing transaminase [EC:2.6.1.66 2.6.1.2]	0	1	1	NA	K14260	GC_00000855, GC_00001673	1	1	12	12
+branched-chain amino acid transport system substrate-binding protein	0	1	1	NA	K01999	GC_00001457	1	1	12	12
+competence protein ComFC	0	1	1	NA	K02242	GC_00000122	1	1	12	12
+queuine tRNA-ribosyltransferase [EC:2.4.2.29]	0	1	1	NA	K00773	GC_00001333	1	1	12	12
+cardiolipin synthase (CMP-forming) [EC:2.7.8.41]	0	1	1	NA	K08744	GC_00000903	1	1	12	12
+tryptophanyl-tRNA synthetase [EC:6.1.1.2]	0	1	1	NA	K01867	GC_00001458	1	1	12	12
+argininosuccinate synthase [EC:6.3.4.5]	0	1	1	NA	K01940	GC_00001494	1	1	12	12
+large subunit ribosomal protein L34	0	1	1	NA	K02914	GC_00001849	1	1	12	12
+probable pyridine nucleotide-disulfide oxidoreductase	0	1	1	NA	K21739	GC_00001660	1	1	12	12
+small subunit ribosomal protein S2	0	1	1	NA	K02967	GC_00001813	1	1	12	12
+acetate kinase [EC:2.7.2.1]	0	1	1	NA	K00925	GC_00001495	1	1	12	12
+proteasome-associated ATPase	0	1	1	NA	K13527	GC_00001648	1	1	12	12
+GTP diphosphokinase / guanosine-3',5'-bis(diphosphate) 3'-diphosphatase [EC:2.7.6.5 3.1.7.2]	0	1	1	NA	K01139	GC_00001007	1	1	12	12
+nicotinate phosphoribosyltransferase [EC:6.3.4.21]	0	1	1	NA	K00763	GC_00000099	1	1	12	12
+large subunit ribosomal protein L14	0	1	1	NA	K02874	GC_00001008	1	1	12	12
+4-diphosphocytidyl-2-C-methyl-D-erythritol kinase [EC:2.7.1.148]	0	1	1	NA	K00919	GC_00001745	1	1	12	12
+DNA replication and repair protein RecF	0	1	1	NA	K03629	GC_00000863	1	1	12	12
+GTP-binding protein	0	1	1	NA	K06207	GC_00000647	1	1	12	12
+putative ABC transport system ATP-binding protein	0	1	1	NA	K02003	GC_00000049, GC_00000217, GC_00000314, GC_00000372, GC_00000373, GC_00000469, GC_00000603, GC_00000780, GC_00000784, GC_00001238	1	1	12	12
+deoxyribonuclease IV [EC:3.1.21.2]	0	1	1	NA	K01151	GC_00001239	1	1	12	12
+type IV secretion system protein VirD4 [EC:7.4.2.8]	0	1	1	NA	K03205	GC_00001269	1	1	12	12
+glycosyltransferase EpsF [EC:2.4.-.-]	0	1	1	NA	K19424	GC_00000032	1	1	12	12
+polar amino acid transport system ATP-binding protein [EC:7.4.2.1]	0	1	1	NA	K02028	GC_00001110, GC_00001444, GC_00001519	1	1	12	12
+lipid II isoglutaminyl synthase (glutamine-hydrolysing) [EC:6.3.5.13]	0	1	1	NA	K23393	GC_00001263, GC_00001631	1	1	12	12
+ammonium transporter, Amt family	0	1	1	NA	K03320	GC_00001397	1	1	12	12
+multiple sugar transport system ATP-binding protein [EC:7.5.2.-]	0	1	1	NA	K10112	GC_00000968	1	1	12	12
+ATP phosphoribosyltransferase [EC:2.4.2.17]	0	1	1	NA	K00765	GC_00001321	1	1	12	12
+oligopeptidase B [EC:3.4.21.83]	0	1	1	NA	K01354	GC_00001560	1	1	12	12
+glycerol uptake facilitator protein	0	1	1	NA	K02440	GC_00001777	1	1	12	12
+mRNA interferase YafQ [EC:3.1.-.-]	0	1	1	NA	K19157	GC_00000781	1	1	12	12
+DNA-binding protein HU-beta	0	1	1	NA	K03530	GC_00001379	1	1	12	12
+transcription termination/antitermination protein NusG	0	1	1	NA	K02601	GC_00001101	1	1	12	12
+large subunit ribosomal protein L23	0	1	1	NA	K02892	GC_00000101	1	1	12	12
+1,4-dihydroxy-2-naphthoate polyprenyltransferase [EC:2.5.1.74]	0	1	1	NA	K02548	GC_00000360	1	1	12	12
+large subunit ribosomal protein L24	0	1	1	NA	K02895	GC_00001487	1	1	12	12
+2-isopropylmalate synthase [EC:2.3.3.13]	0	1	1	NA	K01649	GC_00000501	1	1	12	12
+large subunit ribosomal protein L31	0	1	1	NA	K02909	GC_00000876	1	1	12	12
+molecular chaperone GrpE	0	1	1	NA	K03687	GC_00000561	1	1	12	12
+succinyl-CoA synthetase beta subunit [EC:6.2.1.5]	0	1	1	NA	K01903	GC_00000886	1	1	12	12
+glycerate 2-kinase [EC:2.7.1.165]	0	1	1	NA	K00865	GC_00001433	1	1	12	12
+phosphoribosyl-AMP cyclohydrolase [EC:3.5.4.19]	0	1	1	NA	K01496	GC_00001460	1	1	12	12
+acylphosphatase [EC:3.6.1.7]	0	1	1	NA	K01512	GC_00001754	1	1	12	12
+nitrogen fixation protein NifU and related proteins	0	1	1	NA	K04488	GC_00000119	1	1	12	12
+hypoxanthine phosphoribosyltransferase [EC:2.4.2.8]	0	1	1	NA	K00760	GC_00001155	1	1	12	12
+putative aldouronate transport system substrate-binding protein	0	1	1	NA	K17318	GC_00001516	1	1	12	12
+bile acid:Na+ symporter, BASS family	0	1	1	NA	K03453	GC_00001571	1	1	12	12
+ribonucleoside-diphosphate reductase beta chain [EC:1.17.4.1]	0	1	1	NA	K00526	GC_00000489	1	1	12	12
+glutamate synthase (NADPH) small chain [EC:1.4.1.13]	0	1	1	NA	K00266	GC_00000499	1	1	12	12
+lysophospholipase [EC:3.1.1.5]	0	1	1	NA	K01048	GC_00001918	1	1	12	12
+Fur family transcriptional regulator, ferric uptake regulator	0	1	1	NA	K03711	GC_00000992, GC_00001265	1	1	12	12
+ATP-binding cassette, subfamily C, bacterial CydCD	0	1	1	NA	K16014	GC_00000311	1	1	12	12
+8-oxo-(d)GTP phosphatase [EC:3.6.1.69]	0	1	1	NA	K23258	GC_00000449	1	1	12	12
+polysaccharide biosynthesis protein PelF	0	1	1	NA	K21011	GC_00000518	1	1	12	12
+beta-glucoside PTS system EIICBA component [EC:2.7.1.-]	0	1	1	NA	K02757	GC_00000139	1	1	12	12
+2,5-diketo-D-gluconate reductase A [EC:1.1.1.346]	0	1	1	NA	K06221	GC_00000041, GC_00000802, GC_00000976, GC_00001217	1	1	12	12
+alpha-L-fucosidase 2 [EC:3.2.1.51]	0	1	1	NA	K15923	GC_00000706	1	1	12	12
+isoamylase [EC:3.2.1.68]	0	1	1	NA	K01214	GC_00000906, GC_00001030	1	1	12	12
+preprotein translocase subunit SecA [EC:7.4.2.8]	0	1	1	NA	K03070	GC_00001355	1	1	12	12
+TatD DNase family protein [EC:3.1.21.-]	0	1	1	NA	K03424	GC_00000389	1	1	12	12
+cysteinyl-tRNA synthetase [EC:6.1.1.16]	0	1	1	NA	K01883	GC_00000629	1	1	12	12
+starvation-inducible DNA-binding protein	0	1	1	NA	K04047	GC_00000013	1	1	12	12
+tryptophan synthase beta chain [EC:4.2.1.20]	0	1	1	NA	K01696	GC_00000223	1	1	12	12
+NTE family protein	0	1	1	NA	K07001	GC_00001257	1	1	12	12
+small subunit ribosomal protein S18	0	1	1	NA	K02963	GC_00001697	1	1	12	12
+transaldolase [EC:2.2.1.2]	0	1	1	NA	K00616	GC_00000407	1	1	12	12
+ATP adenylyltransferase [EC:2.7.7.53]	0	1	1	NA	K19710	GC_00000944	1	1	12	12
+1-acyl-sn-glycerol-3-phosphate acyltransferase [EC:2.3.1.51]	0	1	1	NA	K00655	GC_00000749, GC_00001689	1	1	12	12
+L-aspartate oxidase [EC:1.4.3.16]	0	1	1	NA	K00278	GC_00001399	1	1	12	12
+serine/threonine-protein kinase HipA [EC:2.7.11.1]	0	1	1	NA	K07154	GC_00000995, GC_00001167	1	1	12	12
+GntR family transcriptional regulator, transcriptional repressor for pyruvate dehydrogenase complex	0	1	1	NA	K05799	GC_00000473	1	1	12	12
+long-chain acyl-CoA synthetase [EC:6.2.1.3]	0	1	1	NA	K01897	GC_00000200, GC_00000600, GC_00001159, GC_00001819	1	1	12	12
+UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [EC:6.3.2.10]	0	1	1	NA	K01929	GC_00000305	1	1	12	12
+NAD+ kinase [EC:2.7.1.23]	0	1	1	NA	K00858	GC_00000558	1	1	12	12
+carbonic anhydrase [EC:4.2.1.1]	0	1	1	NA	K01673	GC_00001848	1	1	12	12
+riboflavin kinase / FMN adenylyltransferase [EC:2.7.1.26 2.7.7.2]	0	1	1	NA	K11753	GC_00000366	1	1	12	12
+chromosome partitioning protein	0	1	1	NA	K03496	GC_00001117, GC_00001702, GC_00001779	1	1	12	12
+evolved beta-galactosidase subunit beta	0	1	1	NA	K12112	GC_00001649	1	1	12	12
+fructose PTS system EIIB component [EC:2.7.1.202]	0	1	1	NA	K02769	GC_00001669	1	1	12	12
+acetolactate decarboxylase [EC:4.1.1.5]	0	1	1	NA	K01575	GC_00001509	1	1	12	12
+23S rRNA (cytidine1920-2'-O)/16S rRNA (cytidine1409-2'-O)-methyltransferase [EC:2.1.1.226 2.1.1.227]	0	1	1	NA	K06442	GC_00001674	1	1	12	12
+histidinol-phosphate aminotransferase [EC:2.6.1.9]	0	1	1	NA	K00817	GC_00001762	1	1	12	12
+5-amino-6-(5-phospho-D-ribitylamino)uracil phosphatase [EC:3.1.3.104]	0	1	1	NA	K21064	GC_00000088, GC_00000612, GC_00000725, GC_00000856	1	1	12	12
+phosphatidylglycerol lysyltransferase [EC:2.3.2.3]	0	1	1	NA	K14205	GC_00001029	1	1	12	12
+transcriptional regulator of arginine metabolism	0	1	1	NA	K03402	GC_00001713	1	1	12	12
+tight adherence protein B	0	1	1	NA	K12510	GC_00001941	1	1	12	12
+hemolysin III	0	1	1	NA	K11068	GC_00001785, GC_00001919	1	1	12	12
+protein-ribulosamine 3-kinase [EC:2.7.1.172]	0	1	1	NA	K15523	GC_00000219	1	1	12	12
+acetolactate synthase I/II/III large subunit [EC:2.2.1.6]	0	1	1	NA	K01652	GC_00001171	1	1	12	12
+prokaryotic ubiquitin-like protein Pup	0	1	1	NA	K13570	GC_00001493	1	1	12	12
+toxin FitB [EC:3.1.-.-]	0	1	1	NA	K07062	GC_00001318	1	1	12	12
+GntR family transcriptional regulator	0	1	1	NA	K07979	GC_00000494, GC_00001040	1	1	12	12
+GMP synthase (glutamine-hydrolysing) [EC:6.3.5.2]	0	1	1	NA	K01951	GC_00000926, GC_00001851	1	1	12	12
+F-type H+-transporting ATPase subunit b	0	1	1	NA	K02109	GC_00001377	1	1	12	12
+transcription termination/antitermination protein NusA	0	1	1	NA	K02600	GC_00001717	1	1	12	12
+peptide methionine sulfoxide reductase msrA/msrB [EC:1.8.4.11 1.8.4.12]	0	1	1	NA	K12267	GC_00000324	1	1	12	12
+diacylglycerol kinase (ATP) [EC:2.7.1.107]	0	1	1	NA	K07029	GC_00000634, GC_00001703	1	1	12	12
+imidazole glycerol-phosphate synthase subunit HisH [EC:4.3.2.10]	0	1	1	NA	K02501	GC_00001070	1	1	12	12
+aminopeptidase N [EC:3.4.11.2]	0	1	1	NA	K01256	GC_00000490	1	1	12	12
+glutamate--cysteine ligase [EC:6.3.2.2]	0	1	1	NA	K01919	GC_00000750	1	1	12	12
+histidinol dehydrogenase [EC:1.1.1.23]	0	1	1	NA	K00013	GC_00001620	1	1	12	12
+dTDP-4-dehydrorhamnose 3,5-epimerase/reductase [EC:5.1.3.13 1.1.1.133]	0	1	1	NA	K23987	GC_00000672	1	1	12	12
+membrane protein HdeD	0	1	1	NA	K21908	GC_00001147	1	1	12	12
+tRNA (guanine37-N1)-methyltransferase [EC:2.1.1.228]	0	1	1	NA	K00554	GC_00000649	1	1	12	12
+2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-succinyltransferase [EC:2.3.1.117]	0	1	1	NA	K00674	GC_00000815	1	1	12	12
+Fe-S cluster assembly ATP-binding protein	0	1	1	NA	K09013	GC_00001570	1	1	12	12
+YggT family protein	0	1	1	NA	K02221	GC_00000191	1	1	12	12
+putative heme transporter	0	1	1	NA	K20469	GC_00000170	1	1	12	12
+Fe-S cluster assembly protein SufB	0	1	1	NA	K09014	GC_00001757	1	1	12	12
+large subunit ribosomal protein L16	0	1	1	NA	K02878	GC_00001573	1	1	12	12
+sortase A [EC:3.4.22.70]	0	1	1	NA	K07284	GC_00000777, GC_00000778, GC_00000905, GC_00001010	1	1	12	12
+purine-nucleoside/S-methyl-5'-thioadenosine phosphorylase / adenosine deaminase [EC:2.4.2.1 2.4.2.28 3.5.4.4]	0	1	1	NA	K05810	GC_00001369	1	1	12	12
+small subunit ribosomal protein S6	0	1	1	NA	K02990	GC_00001244	1	1	12	12
+ribosomal protection tetracycline resistance protein	0	1	1	NA	K18220	GC_00000265	1	1	12	12
+putative chitobiose transport system substrate-binding protein	0	1	1	NA	K17244	GC_00001259	1	1	12	12
+DNA polymerase III subunit epsilon [EC:2.7.7.7]	0	1	1	NA	K02342	GC_00000923	1	1	12	12
+cold shock protein	0	1	1	NA	K03704	GC_00000792, GC_00001606	1	1	12	12
+pyroglutamyl-peptidase [EC:3.4.19.3]	0	1	1	NA	K01304	GC_00001700	1	1	12	12
+single-strand DNA-binding protein	0	1	1	NA	K03111	GC_00000281, GC_00001312	1	1	12	12
+small subunit ribosomal protein S9	0	1	1	NA	K02996	GC_00000805	1	1	12	12
+transcription antitermination protein NusB	0	1	1	NA	K03625	GC_00001100	1	1	12	12
+threonyl-tRNA synthetase [EC:6.1.1.3]	0	1	1	NA	K01868	GC_00000779	1	1	12	12
+ATP-dependent DNA helicase UvrD/PcrA [EC:5.6.2.4]	0	1	1	NA	K03657	GC_00000910, GC_00001392, GC_00001914	1	1	12	12
+creatinine amidohydrolase [EC:3.5.2.10]	0	1	1	NA	K01470	GC_00000249	1	1	12	12
+glutamate 5-kinase [EC:2.7.2.11]	0	1	1	NA	K00931	GC_00000665	1	1	12	12
+histidine triad (HIT) family protein	0	1	1	NA	K02503	GC_00001245	1	1	12	12
+periplasmic iron binding protein	0	1	1	NA	K07230	GC_00000683	1	1	12	12
+5-methyltetrahydropteroyltriglutamate--homocysteine methyltransferase [EC:2.1.1.14]	0	1	1	NA	K00549	GC_00001459	1	1	12	12
+xylulose-5-phosphate/fructose-6-phosphate phosphoketolase [EC:4.1.2.9 4.1.2.22]	0	1	1	NA	K01621	GC_00001354	1	1	12	12
+L-fuconolactonase [EC:3.1.1.-]	0	1	1	NA	K07046	GC_00000127, GC_00001049	1	1	12	12
+cell division initiation protein	0	1	1	NA	K04074	GC_00000480	1	1	12	12
+small subunit ribosomal protein S19	0	1	1	NA	K02965	GC_00000654	1	1	12	12
+CRISP-associated protein Cas1	0	1	1	NA	K15342	GC_00000663	1	1	12	12
+chorismate synthase [EC:4.2.3.5]	0	1	1	NA	K01736	GC_00000912	1	1	12	12
+HSP20 family protein	0	1	1	NA	K13993	GC_00001788	1	1	12	12
+segregation and condensation protein B	0	1	1	NA	K06024	GC_00000904	1	1	12	12

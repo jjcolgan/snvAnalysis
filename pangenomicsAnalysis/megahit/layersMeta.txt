@@ -1,0 +1,26 @@
+samples	tissue	cage
+sample20240801ChanglabSSG2678CoMGSS2	colon	four
+sample20240801ChanglabSSG2678DJMGSS23	dj	four
+sample20240801ChanglabSSG2852CoMGSS5	colon	four
+sample20240801ChanglabSSG2852DJMGSS25	dj	four
+sample20240801ChanglabSSG2868CoMGSS26	colon	four
+sample20240801ChanglabSSGCOMGSNT4S1	colon	three
+sample20240801Chang_labSSGCOMGsS8455S24	colon	three
+sample20240801Chang_labSSGDJMGS8455S22	dj	three
+sample20240801Chang_labSSGDJMGSNT4S21	dj	three
+sample20240801ChanglabSSGNT3CoMGSS3	colon	five
+sample20240801ChanglabSSGNT3DJMGSS4	dj	five
+sample240523John2439co	colon	one
+sample240523John2439dj	dj	one
+sample240523John2444co	colon	two
+sample240523John2444dj	dj	two
+sample240523John2445co	colon	two
+sample240523John2445dj	dj	two
+sample240523John2446co	colon	two
+sample240523John2446dj	dj	two
+sample240523John2447dj	dj	two
+sample240523John2448co	colon	two
+sample240523John2448dj	dj	two
+sample240523John2476co	colon	one
+sample240523John2476dj	dj	one
+reference		ref
