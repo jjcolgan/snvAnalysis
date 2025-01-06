@@ -1,3 +1,4 @@
+#!/bin/bash
 #SBATCH --account=pi-blekhman
 #SBATCH --ntasks=12
 #SBATCH --mem=32G
