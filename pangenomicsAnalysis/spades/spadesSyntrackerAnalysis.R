@@ -7,6 +7,7 @@ library(readr)
 library(tidyverse)
 library(dplyr)
 library(ggplot2)
+library(ggpubr)
 apssStrainCutoff = .955
 
 data = read_csv('pangenomicsAnalysis/spades/12_SYNTRACKER/output/summary_output/avg_synteny_scores_40_regions.csv')
@@ -30,6 +31,7 @@ data %>%
   ggplot(aes(x = tissueComparison,
              y = APSS))+
   geom_violin()+
+  geom_jitter()+labs(title = 'Tissue APSS 40 regions')+
   stat_compare_means(comparisons = list(c('co','differentTissue'),
                                         c('co', 'dj'),
                                         c('differentTissue', 'dj')))
@@ -84,7 +86,8 @@ data %>%
   geom_jitter()+
   stat_compare_means(comparisons = list(c('co','differentTissue'),
                                         c('co', 'dj'),
-                                        c('differentTissue', 'dj')))
+                                        c('differentTissue', 'dj')))+
+  labs(title = 'APSS 60 regions')
 data %>%
   ggplot(aes(x = APSS))+
   geom_histogram(binwidth = .005)+
@@ -130,7 +133,8 @@ data %>%
   geom_jitter()+
   stat_compare_means(comparisons = list(c('co','differentTissue'),
                                         c('co', 'dj'),
-                                        c('differentTissue', 'dj')))
+                                        c('differentTissue', 'dj')))+
+  labs(title = 'APSS 80 regions')
 data %>%
   ggplot(aes(x = APSS))+
   geom_histogram(binwidth = .005)+
@@ -175,6 +179,7 @@ data %>%
              y = APSS))+
   geom_violin()+
   geom_jitter()+
+  labs(title = 'APSS 100 regions')
   stat_compare_means(comparisons = list(c('co','differentTissue'),
                                         c('co', 'dj'),
                                         c('differentTissue', 'dj')))
@@ -205,9 +210,13 @@ data %>%
   ggplot(aes(x = tissueComparison,
              y = APSS))+
   geom_violin()+
+  labs(title = 'APSS 200 regions')+
+  geom_jitter()+
   stat_compare_means(comparisons = list(c('co','differentTissue'),
                                         c('co', 'dj'),
                                         c('differentTissue', 'dj')))
+
+
 'DJ has statistically significantly lower APSS than different tissues comparisons
 but still not different strains at 60 regions'
 data %>%
@@ -268,7 +277,8 @@ data %>%
   geom_jitter()+
   stat_compare_means(,comparisons = list(c('co','differentTissue'),
                                         c('co', 'dj'),
-                                        c('differentTissue', 'dj')))
+                                        c('differentTissue', 'dj')))+
+  labs(title = 'Genome wide APSS')
 ?stat_compare_means()
 data %>%
   ggplot(aes(x = APSS))+
