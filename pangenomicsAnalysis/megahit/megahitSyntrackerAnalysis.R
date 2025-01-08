@@ -288,11 +288,7 @@ data %>%
   summarise(n())
 'This just looks like a region that was hard to assemble. All samples are very different from each other. In general it looks like this is just do to some weirdness in the samples
 '
-data%>%
-  filter(Region == 'NC_020517.1_280000_281000',
-         Synteny_score < apssStrainCutoff)%>%
-  view()
-
+'This regions a lot of rearrangements in both assemblies'
 data%>%
   filter(Region == 'NC_020517.1_1015000_1016000',
          Synteny_score < apssStrainCutoff)%>%
