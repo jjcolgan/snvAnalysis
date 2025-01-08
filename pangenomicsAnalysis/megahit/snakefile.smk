@@ -437,7 +437,7 @@ rule exportContigCoverages:
         --report-contigs --use-Q2Q3-coverages > {log.out} 2> {log.err}
 	"""
 rule genDepth:
-    conda: metabat2
+    conda: 'metabat2;
     resources:
         cpus_per_task = 10,
         mem_mb = 2000,
