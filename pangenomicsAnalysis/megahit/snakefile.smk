@@ -436,10 +436,29 @@ rule exportContigCoverages:
 	-O coverageOutput \
         --report-contigs --use-Q2Q3-coverages > {log.out} 2> {log.err}
 	"""
+rule genDepth:
+    conda: metabat2
+    resources:
+        cpus_per_task = 10,
+        mem_mb = 2000,
+        tasks = 1,
+        time = '15h',
+        nodes = 1,
+        account = 'pi-blekhman'
+    input:
+        bam = '04_MG_ALIGNED/{sample}Sorted.bam'
+    output:
+        depth = '09_COVERAGES/{sample}/depth'
+    shell:
+        """
+        jgi_summarize_bam_contig_depths -outputDepth {output.depth} \
+        {input.bam}
+        """
+
 rule metabat2:
     resources:
         cpus_per_task = 10,
-        mem_mb = 50000,
+        mem_mb = 4000,
         tasks = 1,
         time = '15h',
         nodes = 1,
@@ -447,7 +466,7 @@ rule metabat2:
     conda:
         'metabat2'
     input:
-        coverages = '09_COVERAGES/{sample}/coverageOutput-COVs.txt',
+        depth = '09_COVERAGES/{sample}/depth',
         contigs = '09_COVERAGES/{sample}/coverageOutput-CONTIGS.fa'
     output:
         done = '10_BINNING/{sample}/binning.done'
