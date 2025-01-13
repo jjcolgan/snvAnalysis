@@ -16,12 +16,12 @@ rule trim:
         partition = 'blekhman'
     threads :4
     input:
-        R1 = '/project/blekhman/jjcolgan/snv_data/cohort1RerurnCohort2Pangenomics/01_QC/{sample}dehosted_R1.fastq.gz',
-        R2= '/project/blekhman/jjcolgan/snv_data/cohort1RerurnCohort2Pangenomics/01_QC/{sample}dehosted_R2.fastq.gz'
+        R1 = '/project/blekhman/jjcolgan/snv_data/cohort1RerurnCohort2Pangenomics/01_QC/{sample}_dehosted_R1.fastq.gz',
+        R2= '/project/blekhman/jjcolgan/snv_data/cohort1RerurnCohort2Pangenomics/01_QC/{sample}_dehosted_R2.fastq.gz'
     conda:'biobakery3'
     output:
         R1 = temp('01_QC/{sample}Dehosted_R1.fastq.gz'),
-        R2 = temp('01_QC/{sample}Dehosted_R1.fastq.gz'),
+        R2 = temp('01_QC/{sample}Dehosted_R2.fastq.gz'),
         R1Orphaned = temp('01_QC/{sample}_dehosted_R1.fastq.gz'),
         R2Orphaned = temp('01_QC/{sample}_dehosted_R2.fastq.gz')
     log:
@@ -31,7 +31,7 @@ rule trim:
         '''
         java -jar /project/blekhman/jjcolgan/Trimmomatic-0.39/trimmomatic-0.39.jar PE -threads {threads} -phred33 \
 	    {input.R1} {input.R2} \
-	    {output.R1} {output.12Orphaned} \
+	    {output.R1} {output.R1Orphaned} \
 	    {output.R2} {output.R2Orphaned} \
 	    ILLUMINACLIP:/project/blekhman/jjcolgan/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa/:2:30:10:8:true \
 	    SLIDINGWINDOW:4:30 MINLEN:40 > {log.out} 2> {log.err}
@@ -75,6 +75,7 @@ rule convertBam:
         nodes=1,
         account='pi-blekhman',
         partition='blekhman'
+    conda: 'biobakery2'
     input:
         sam = '01_QC/{sample}Aligned.sam'
     output:
@@ -102,7 +103,7 @@ rule profile:
         dir = '04_instrain/{sample}/'
     threads:8
     log:
-        output = '04_instrain/{sample}.out',
+        out = '04_instrain/{sample}.out',
         err = '04_instrain/{sample}.err'
     shell:
         '''
