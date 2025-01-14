@@ -16,7 +16,7 @@ rule all:
     input:
         expand('05_CONTIGS_DB/{sample}/importBins.done', sample = samples),
         expand('05_CONTIGS_DB/{sample}/contigs.db', sample = samples),
-#        expand('05_CONTIGS_DB/{sample}/annotations.done', sample = samples),
+        expand('05_CONTIGS_DB/{sample}/annotations.done', sample = samples),
         'metagenomes.tsv'
 
 
