@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH --account=pi-blekhman
+#SBATCH --q
 #SBATCH --ntasks=4
 #SBATCH --mem=8G
 #SBATCH --job-name=alignLowSynt

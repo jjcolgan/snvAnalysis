@@ -32,7 +32,7 @@ genesFiltered$tissue[grepl(genesFiltered$sample, pattern = 'dj', ignore.case = T
 'Only consider genes which are present in at least 50% of samples with 3 or more snvs'
 nDj<-genesFiltered %>%
   filter(tissue == 'dj')%>%
-  select(sample)%>%
+  dplyr::select(sample)%>%
   distinct()%>%
   nrow()
 cutoffDj<-nDj*.7
@@ -48,7 +48,7 @@ view(genesFiltered)
 
 nColon<-genesFiltered %>%
   filter(tissue == 'colon')%>%
-  select(sample)%>%
+  dplyr::select(sample)%>%
   distinct()%>%
   nrow()
 cutoffColon<-nColon*.7
@@ -111,8 +111,8 @@ plotData<- mcaOut$ind[1] %>%
 'Both of these look good, need to figure out what pc1 is capturing, but PC2 does a good job of
 seperating groups'
 ggplot(data = plotData,
-       aes(x = coord.Dim.2,
-           y = coord.Dim.3,
+       aes(x = coord.Dim.1,
+           y = coord.Dim.2,
            col = tissue,
            label = sample))+
   geom_point()+
@@ -190,7 +190,7 @@ jaccardIn[is.na(jaccardIn)]<-0
 
 jaccardIn <- column_to_rownames(jaccardIn, 'sample')
 
-adonis2(jaccardIn~tissue+cage+Mouse+run+Cohort, data = merge(metadata, metafull, by = 'sample'), method = 'jac', binary = TRUE)
+adonis2(jaccardIn~tissue.y+cage+Mouse+run.y+Cohort, data = merge(metadata, metafull, by = 'sample'), method = 'jac', binary = TRUE)
 jaccardOut<-jaccardIn %>%
   vegdist(method = 'jaccard',
           binary = TRUE)
@@ -216,7 +216,7 @@ jaccardIn[is.na(jaccardIn)]<-0
 
 jaccardIn <- column_to_rownames(jaccardIn, 'sample')
 
-adonis2(jaccardIn~tissue+cage+Mouse+run+Cohort, data = merge(metadata, metafull, by = 'sample'), method = 'jac', binary = TRUE)
+adonis2(jaccardIn~tissue.y+cage+Mouse+run.y+Cohort, data = merge(metadata, metafull, by = 'sample'), method = 'jac', binary = TRUE)
 jaccardOut<-jaccardIn %>%
   vegdist(method = 'jaccard',
           binary = TRUE)
