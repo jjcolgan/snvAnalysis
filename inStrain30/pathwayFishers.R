@@ -46,5 +46,46 @@ pathways <- read_tsv('inStrain30/metabolism_modules.tsv',
 pathways$gene_caller_ids_in_module = as.character(pathways$gene_caller_ids_in_module)
 pathwaysComplete=pathways%>%
   filter(pathwise_module_is_complete == T | stepwise_module_is_complete == T)
+results = data.frame('pathway' = character(),
+                     'pvalue' = double())
+for (p in 1:nrow(pathwaysComplete)){
+  temp=pathwaysComplete[p,]
+  enzymes = temp$gene_caller_ids_in_module
+  enzymes = str_split_1(enzymes, pattern = ',')
+  for (i in 1:length(enzymes)){
+    enzymes[i] = paste0('c_000000000001_', enzymes[i])
+  }
+#store the pnps scores for the gene in the pathway
+  contigencyTable = data.frame('tissue' = character(),
+                             'above1'= integer(),
+                             'below1' = integer())
+  tissues = unique(genesInfo$tissue)
+  for (t in 1:length(tissues)){
+    pathwayPnPs=genesInfo%>%
+    filter(tissue == tissues[t],
+         gene %in% enzymes)
+    nGenesAbove1 = pathwayPnPs %>%
+    filter(is.na(pNpS_variants)==F | SNV_N_count >0)%>%
+    filter(pNpS_variants > 1)%>%
+    nrow()
 
-temp=pathwaysComplete[1,]
+    nGenesBelow1 = pathwayPnPs %>%
+    filter(is.na(pNpS_variants)==F)%>%
+    filter(pNpS_variants < 1)%>%
+    nrow()
+    row = data.frame('tissue' = tissues[t],
+                    'above1'= nGenesAbove1,
+                   'below1' = nGenesBelow1)
+    contigencyTable = rbind(contigencyTable,
+                          row)
+
+
+}
+  print(contigencyTable)
+  fishersOut= contigencyTable %>%
+  column_to_rownames('tissue')%>%
+  fisher.test()
+  resAdd = data.frame('pathway' = pathwaysComplete[p,]$module,
+                    'pvalue' = fishersOut$p.value)
+  results = rbind(results,resAdd)
+}
