@@ -5,6 +5,7 @@ samples = samples[:-1]
 rule all:
     input:
         expand('04_instrain/{sample}/done', sample = samples)
+'This straight up does not work. Hardly any samples have coverage to do anything with. Dropping the min Q 30 requirement'
 rule trim:
     resources:
         cpus_per_task = 1,
@@ -48,8 +49,8 @@ rule alignRef:
     threads:4
     conda:'biobakery3'
     input:
-        R1 = '01_QC/{sample}Dehosted_R1.fastq.gz',
-        R2 = '01_QC/{sample}Dehosted_R1.fastq.gz'
+        R1='/project/blekhman/jjcolgan/snv_data/cohort1RerurnCohort2Pangenomics/01_QC/{sample}_dehosted_R1.fastq.gz',
+        R2='/project/blekhman/jjcolgan/snv_data/cohort1RerurnCohort2Pangenomics/01_QC/{sample}_dehosted_R2.fastq.gz'
     output:
         sam = temp('01_QC/{sample}Aligned.sam')
     log:
