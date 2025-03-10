@@ -116,6 +116,7 @@ for (p in 1:nrow(pathwaysComplete)) {
                                                           'pathwaySsites' = pathwaySSites,
                                                           'pathwayNsites' = pathwayNSites))
 }
+write_tsv(pathwaySandNsites, 'pathwaySandNCounts.tsv')
 
 
 
